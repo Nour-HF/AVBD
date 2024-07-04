@@ -1,0 +1,70 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix edifact-o: <https://purl.org/edifact/ontology#> .
+
+
+# Shape for messageReferenceNumber
+edifact-o:MessageReferenceNumberShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf <https://purl.org/edifact/ontology#messageReferenceNumber> ;
+    sh:property [
+        sh:path <https://purl.org/edifact/ontology#messageReferenceNumber> ;
+        sh:datatype xsd:string ;
+        sh:maxLength 14 ;
+        sh:pattern "^[a-zA-Z0-9]*$" ;
+    ] .
+
+# Shape for messageTypeIdentifier
+edifact-o:MessageTypeIdentifierShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf <https://purl.org/edifact/ontology#messageTypeIdentifier> ;
+    sh:property [
+        sh:path <https://purl.org/edifact/ontology#messageTypeIdentifier> ;
+        sh:datatype xsd:string ;
+        sh:maxLength 6 ;
+        sh:pattern "^[a-zA-Z0-9]*$" ;
+    ] .
+
+# Shape for versionNumberMessageType
+edifact-o:versionNumberMessageTypeShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf <https://purl.org/edifact/ontology#versionNumberMessageType> ;
+    sh:property [
+        sh:path <https://purl.org/edifact/ontology#versionNumberMessageType> ;
+        sh:datatype xsd:string ;
+        sh:maxLength 3 ;
+        sh:pattern "^[a-zA-Z0-9]*$" ;
+    ] .    
+
+# Shape for releaseNumberMessageType
+edifact-o:releaseNumberMessageTypeShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf <https://purl.org/edifact/ontology#releaseNumberMessageType> ;
+    sh:property [
+        sh:path <https://purl.org/edifact/ontology#releaseNumberMessageType> ;
+        sh:datatype xsd:string ;
+        sh:maxLength 3 ;
+        sh:pattern "^[a-zA-Z0-9]*$" ;
+    ] .  
+
+# Shape for managingOrganisations
+edifact-o:managingOrganisationsShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf <https://purl.org/edifact/ontology#managingOrganisations> ;
+    sh:property [
+        sh:path <https://purl.org/edifact/ontology#managingOrganisations> ;
+        sh:datatype xsd:string ;
+        sh:maxLength 2 ;
+        sh:pattern "^[a-zA-Z0-9]*$" ;
+    ] .
+
+# Shape for controlSegmentBetweenItemAndTotalPart
+edifact-o:controlSegmentBetweenItemAndTotalPartShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf <https://purl.org/edifact/ontology#controlSegmentBetweenItemAndTotalPart> ;
+    sh:property [
+        sh:path <https://purl.org/edifact/ontology#controlSegmentBetweenItemAndTotalPart> ;
+        sh:datatype xsd:string ;
+        sh:maxLength 1 ;
+        sh:pattern "^[a-zA-Z]*$" ;
+    ] .          

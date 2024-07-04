@@ -1,0 +1,1442 @@
+<Interchange format="EDIFACT" unaData="UNA:+.? '">
+    <S_UNB id="0" eancomstructure="Structure0">
+        <C_S001 id="0" nid="Item0" organisation="Role0" eancomstructure="Structure0">
+            <D_0001 id="0" eancomstructure="Structure0">UNOC</D_0001>
+            <D_0002 id="0" eancomstructure="Structure0">3</D_0002>
+        </C_S001>
+        <C_S002 id="0" nid="Item0" organisation="Role0" eancomstructure="Structure0">
+            <D_0004 id="0" eancomstructure="Structure0">8712061990009</D_0004>
+            <D_0007 id="0" eancomstructure="Structure0">14</D_0007>
+        </C_S002>
+        <C_S003 id="0" nid="Item0" organisation="Role0" eancomstructure="Structure0">
+            <D_0010 id="0" eancomstructure="Structure0">4317784000000</D_0010>
+            <D_0007 id="0" eancomstructure="Structure0">14</D_0007>
+        </C_S003>
+        <C_S004 id="0" nid="Item0" organisation="Role0" eancomstructure="Structure0">
+            <D_0017 id="0" eancomstructure="Structure0">230608</D_0017>
+            <D_0019 id="0" eancomstructure="Structure0">1004</D_0019>
+        </C_S004>
+        <D_0020 id="0" eancomstructure="Structure0">80</D_0020>
+    </S_UNB>
+    <Message type="INVOIC" release="96A" version="D" details="Invoice1" id="1" mid="InvoiceDetail1">
+        <S_UNH details="Invoice1" id="2" eancomstructure="Structure0">
+            <D_0062 id="2" eancomstructure="Structure0">1</D_0062>
+            <C_S009 id="2" eancomstructure="Structure0">
+                <D_0065 id="2" eancomstructure="Structure0">INVOIC</D_0065>
+                <D_0052 id="2" eancomstructure="Structure0">D</D_0052>
+                <D_0054 id="2" eancomstructure="Structure0">96A</D_0054>
+                <D_0051 id="2" eancomstructure="Structure0">UN</D_0051>
+                <D_0057>EAN008</D_0057>
+            </C_S009>
+        </S_UNH>
+        <S_BGM id="3" mid="InvoiceDetail1">
+            <C_C002 id="3" nid="Item0" organisation="Role0" mid="InvoiceDetail1">
+                <D_1001 id="3" nid="Item0" organisation="Role0" mid="InvoiceDetail1">380</D_1001>
+            </C_C002>
+            <D_1004 id="3" nid="Item0" organisation="Role0" mid="InvoiceDetail1">23028869</D_1004>
+            <D_1225 id="3" nid="Item0" organisation="Role0" mid="InvoiceDetail1">9</D_1225>
+        </S_BGM>
+        <S_DTM id="4" nid="Item0" organisation="Role0" parent="Message" mid="InvoiceDetail1">
+            <C_C507 id="4" nid="Item0" organisation="Role0" mid="InvoiceDetail1">
+                <D_2005 id="4" group="1" nid="Item0" organisation="Role0" mid="InvoiceDetail1">137</D_2005>
+                <D_2380 id="4" group="1" nid="Item0" organisation="Role0" mid="InvoiceDetail1">20230608</D_2380>
+                <D_2379>102</D_2379>
+            </C_C507>
+        </S_DTM>
+        <S_DTM id="5" nid="Item0" organisation="Role0" parent="Message" mid="InvoiceDetail1">
+            <C_C507 id="5" nid="Item0" organisation="Role0" mid="InvoiceDetail1">
+                <D_2005 id="5" group="1" nid="Item0" organisation="Role0" mid="InvoiceDetail1">35</D_2005>
+                <D_2380 id="5" group="1" nid="Item0" organisation="Role0" mid="InvoiceDetail1">20230607</D_2380>
+                <D_2379>102</D_2379>
+            </C_C507>
+        </S_DTM>
+        <G_Group_1 id="5" group="2" mid="InvoiceDetail1">
+            <S_RFF id="6" nid="Item0" organisation="Role0" parent="GGroup1" mid="InvoiceDetail1">
+                <C_C506 id="6" nid="Item0" organisation="Role0" mid="InvoiceDetail1">
+                    <D_1153 id="6" nid="Item0" organisation="Role0" mid="InvoiceDetail1">ON</D_1153>
+                    <D_1154 id="6" nid="Item0" organisation="Role0" mid="InvoiceDetail1">16-88274-86</D_1154>
+                <D_ReFu id="6" group="2" nid="Item0" organisation="Role0" mid="InvoiceDetail1">Auftragsnummer_Kaeufer</D_ReFu></C_C506>
+            </S_RFF>
+        </G_Group_1>
+        <G_Group_1 id="6" group="3" mid="InvoiceDetail1">
+            <S_RFF id="7" nid="Item0" organisation="Role0" parent="GGroup1" mid="InvoiceDetail1">
+                <C_C506 id="7" nid="Item0" organisation="Role0" mid="InvoiceDetail1">
+                    <D_1153 id="7" nid="Item0" organisation="Role0" mid="InvoiceDetail1">VN</D_1153>
+                    <D_1154 id="7" nid="Item0" organisation="Role0" mid="InvoiceDetail1">VO308181</D_1154>
+                <D_ReFu id="7" group="3" nid="Item0" organisation="Role0" mid="InvoiceDetail1">Auftragsnummer_Lieferant</D_ReFu></C_C506>
+            </S_RFF>
+            <S_DTM id="8" nid="Item0" organisation="Role0" parent="GGroup1" mid="InvoiceDetail1">
+                <C_C507 id="8" nid="Item0" organisation="Role0" mid="InvoiceDetail1">
+                    <D_2005 id="8" group="3" nid="Item0" organisation="Role0" mid="InvoiceDetail1">171</D_2005>
+                    <D_2380 id="8" group="3" nid="Item0" organisation="Role0" mid="InvoiceDetail1">20230608</D_2380>
+                    <D_2379>102</D_2379>
+                </C_C507>
+            </S_DTM>
+        </G_Group_1>
+        <G_Group_2 id="8" mid="InvoiceDetail1">
+            <S_NAD details="Invoice1" id="9" nid="Item0" organisation="Role1" parent="GGroup2" mid="InvoiceDetail1">
+                <D_3035 id="9" nid="Item0" organisation="Role1" parent="NAD" mid="InvoiceDetail1">SU</D_3035>
+                <C_C082 id="9" nid="Item0" organisation="Role1" mid="InvoiceDetail1">
+                    <D_3039 id="9" nid="Item0" organisation="Role1" mid="InvoiceDetail1">7567559419641</D_3039>
+                    <D_3055>9</D_3055>
+                </C_C082>
+                <C_C080 id="9" nid="Item0" organisation="Role1" mid="InvoiceDetail1">
+                    <D_3036 id="9" nid="Item0" organisation="Role1" mid="InvoiceDetail1">Supplier</D_3036>
+                </C_C080>
+                <C_C059 id="9" nid="Item0" organisation="Role1" mid="InvoiceDetail1">
+                    <D_3042>Supplier Street 1</D_3042>
+                </C_C059>
+                <D_3164>Supplier Town</D_3164>
+                <D_3251>S-7403</D_3251>
+                <D_3207 id="9" nid="Item0" organisation="Role1" mid="InvoiceDetail1">SU</D_3207>
+            <D_PaFu id="9" nid="Item0" organisation="Role1" mid="InvoiceDetail1">Lieferant</D_PaFu></S_NAD>
+            <G_Group_3>
+                <S_RFF id="10" nid="Item0" organisation="Role1" parent="GGroup3" mid="InvoiceDetail1">
+                    <C_C506 id="10" nid="Item0" organisation="Role1" mid="InvoiceDetail1">
+                        <D_1153 id="10" nid="Item0" organisation="Role1" mid="InvoiceDetail1">VA</D_1153>
+                        <D_1154 id="10" nid="Item0" organisation="Role1" mid="InvoiceDetail1">54552510168725</D_1154>
+                    <D_ReFu id="10" group="3" nid="Item0" organisation="Role1" mid="InvoiceDetail1">Umsatzsteuernummer</D_ReFu></C_C506>
+                </S_RFF>
+            </G_Group_3>
+        </G_Group_2>
+        <G_Group_2 id="10" mid="InvoiceDetail1">
+            <S_NAD details="Invoice1" id="11" nid="Item0" organisation="Role2" parent="GGroup2" mid="InvoiceDetail1">
+                <D_3035 id="11" nid="Item0" organisation="Role2" parent="NAD" mid="InvoiceDetail1">BY</D_3035>
+                <C_C082 id="11" nid="Item0" organisation="Role2" mid="InvoiceDetail1">
+                    <D_3039 id="11" nid="Item0" organisation="Role2" mid="InvoiceDetail1">2644585412857</D_3039>
+                    <D_3055>9</D_3055>
+                </C_C082>
+                <C_C080 id="11" nid="Item0" organisation="Role2" mid="InvoiceDetail1">
+                    <D_3036 id="11" nid="Item0" organisation="Role2" mid="InvoiceDetail1">Buyer</D_3036>
+                </C_C080>
+                <C_C059 id="11" nid="Item0" organisation="Role2" mid="InvoiceDetail1">
+                    <D_3042>Buyer Street 1</D_3042>
+                </C_C059>
+                <D_3164>Buyer Town</D_3164>
+                <D_3251>B-6284</D_3251>
+                <D_3207 id="11" nid="Item0" organisation="Role2" mid="InvoiceDetail1">BY</D_3207>
+            <D_PaFu id="11" nid="Item0" organisation="Role2" mid="InvoiceDetail1">Kaeufer</D_PaFu></S_NAD>
+            <G_Group_3>
+                <S_RFF id="12" nid="Item0" organisation="Role2" parent="GGroup3" mid="InvoiceDetail1">
+                    <C_C506 id="12" nid="Item0" organisation="Role2" mid="InvoiceDetail1">
+                        <D_1153 id="12" nid="Item0" organisation="Role2" mid="InvoiceDetail1">VA</D_1153>
+                        <D_1154 id="12" nid="Item0" organisation="Role2" mid="InvoiceDetail1">691488027641</D_1154>
+                    <D_ReFu id="12" group="3" nid="Item0" organisation="Role2" mid="InvoiceDetail1">Umsatzsteuernummer</D_ReFu></C_C506>
+                </S_RFF>
+            </G_Group_3>
+        </G_Group_2>
+        <G_Group_2 id="12" mid="InvoiceDetail1">
+            <S_NAD details="Invoice1" id="13" nid="Item0" organisation="Role3" parent="GGroup2" mid="InvoiceDetail1">
+                <D_3035 id="13" nid="Item0" organisation="Role3" parent="NAD" mid="InvoiceDetail1">IV</D_3035>
+                <C_C082 id="13" nid="Item0" organisation="Role3" mid="InvoiceDetail1">
+                    <D_3039 id="13" nid="Item0" organisation="Role3" mid="InvoiceDetail1">5429542428157</D_3039>
+                    <D_3055>9</D_3055>
+                </C_C082>
+                <C_C080 id="13" nid="Item0" organisation="Role3" mid="InvoiceDetail1">
+                    <D_3036 id="13" nid="Item0" organisation="Role3" mid="InvoiceDetail1">Invoicee</D_3036>
+                </C_C080>
+                <C_C059 id="13" nid="Item0" organisation="Role3" mid="InvoiceDetail1">
+                    <D_3042>Invoicee Street 1</D_3042>
+                </C_C059>
+                <D_3164>Invoicee Town</D_3164>
+                <D_3251>I-5726</D_3251>
+                <D_3207 id="13" nid="Item0" organisation="Role3" mid="InvoiceDetail1">IV</D_3207>
+            <D_PaFu id="13" nid="Item0" organisation="Role3" mid="InvoiceDetail1">Rechnungsempfaenger</D_PaFu></S_NAD>
+            <G_Group_3>
+                <S_RFF id="14" nid="Item0" organisation="Role3" parent="GGroup3" mid="InvoiceDetail1">
+                    <C_C506 id="14" nid="Item0" organisation="Role3" mid="InvoiceDetail1">
+                        <D_1153 id="14" nid="Item0" organisation="Role3" mid="InvoiceDetail1">VA</D_1153>
+                        <D_1154 id="14" nid="Item0" organisation="Role3" mid="InvoiceDetail1">53390772355</D_1154>
+                    <D_ReFu id="14" group="3" nid="Item0" organisation="Role3" mid="InvoiceDetail1">Umsatzsteuernummer</D_ReFu></C_C506>
+                </S_RFF>
+            </G_Group_3>
+        </G_Group_2>
+        <G_Group_2 id="14" mid="InvoiceDetail1">
+            <S_NAD details="Invoice1" id="15" nid="Item0" organisation="Role4" parent="GGroup2" mid="InvoiceDetail1">
+                <D_3035 id="15" nid="Item0" organisation="Role4" parent="NAD" mid="InvoiceDetail1">DP</D_3035>
+                <C_C082 id="15" nid="Item0" organisation="Role4" mid="InvoiceDetail1">
+                    <D_3039 id="15" nid="Item0" organisation="Role4" mid="InvoiceDetail1">9412408405070</D_3039>
+                    <D_3055>9</D_3055>
+                </C_C082>
+                <C_C080 id="15" nid="Item0" organisation="Role4" mid="InvoiceDetail1">
+                    <D_3036 id="15" nid="Item0" organisation="Role4" mid="InvoiceDetail1">Delivery Party</D_3036>
+                </C_C080>
+                <C_C059 id="15" nid="Item0" organisation="Role4" mid="InvoiceDetail1">
+                    <D_3042>Delivery-Party Street 1</D_3042>
+                </C_C059>
+                <D_3164>Delivery-Party Town</D_3164>
+                <D_3251>D-2641</D_3251>
+                <D_3207 id="15" nid="Item0" organisation="Role4" mid="InvoiceDetail1">DP</D_3207>
+            <D_PaFu id="15" nid="Item0" organisation="Role4" mid="InvoiceDetail1">Lieferanschrift</D_PaFu></S_NAD>
+            <G_Group_3>
+                <S_RFF id="16" nid="Item0" organisation="Role4" parent="GGroup3" mid="InvoiceDetail1">
+                    <C_C506 id="16" nid="Item0" organisation="Role4" mid="InvoiceDetail1">
+                        <D_1153 id="16" nid="Item0" organisation="Role4" mid="InvoiceDetail1">VA</D_1153>
+                        <D_1154 id="16" nid="Item0" organisation="Role4" mid="InvoiceDetail1">121356435325</D_1154>
+                    <D_ReFu id="16" group="3" nid="Item0" organisation="Role4" mid="InvoiceDetail1">Umsatzsteuernummer</D_ReFu></C_C506>
+                </S_RFF>
+            </G_Group_3>
+        </G_Group_2>
+        <G_Group_7 id="16" mid="InvoiceDetail1">
+            <S_CUX id="17" nid="Item0" organisation="Role4" parent="GGroup7" mid="InvoiceDetail1">
+                <C_C504 id="17" nid="Item0" organisation="Role4" parent="CUX" mid="InvoiceDetail1">
+                    <D_6347 id="17" nid="Item0" organisation="Role4" mid="InvoiceDetail1">2</D_6347>
+                    <D_6345 id="17" nid="Item0" organisation="Role4" mid="InvoiceDetail1">EUR</D_6345>
+                    <D_6343 id="17" nid="Item0" organisation="Role4" mid="InvoiceDetail1">4</D_6343>
+                <D_Wae id="17" nid="Item0" organisation="Role4" parent="CC504" mid="InvoiceDetail1">Euro</D_Wae></C_C504>
+            </S_CUX>
+        </G_Group_7>
+        <G_Group_8 id="17" mid="InvoiceDetail1">
+            <S_PAT id="18" nid="Item0" organisation="Role4" mid="InvoiceDetail1">
+                <D_4279 id="18" nid="Item0" organisation="Role4" mid="InvoiceDetail1">22</D_4279>
+                <C_C112 id="18" nid="Item0" organisation="Role4" mid="InvoiceDetail1">
+                    <D_2475 id="18" nid="Item0" organisation="Role4" mid="InvoiceDetail1">5</D_2475>
+                    <D_2009 id="18" nid="Item0" organisation="Role4" mid="InvoiceDetail1">3</D_2009>
+                    <D_2151 id="18" nid="Item0" organisation="Role4" mid="InvoiceDetail1">D</D_2151>
+                    <D_2152 id="18" nid="Item0" organisation="Role4" mid="InvoiceDetail1">60</D_2152>
+                <Zahlungsbezugstermin id="18" nid="Item0" organisation="Role4" mid="InvoiceDetail1">Rechnungsdatum </Zahlungsbezugstermin><Zeitbezug id="18" nid="Item0" organisation="Role4" mid="InvoiceDetail1">nach </Zeitbezug><ArtZeitspanne id="18" nid="Item0" organisation="Role4" mid="InvoiceDetail1"> Tag(e) </ArtZeitspanne></C_C112>
+            <ZahlungsbedingungsArt id="18">Abzug</ZahlungsbedingungsArt></S_PAT>
+            <S_PCD id="19" group="3" nid="Item0" organisation="Role4" parent="GGroup8" mid="InvoiceDetail1">
+                <C_C501 id="19" nid="Item0" organisation="Role4" mid="InvoiceDetail1">
+                    <D_5245 id="19" group="3" nid="Item0" organisation="Role4" mid="InvoiceDetail1">12</D_5245>
+                    <D_5482 id="19" nid="Item0" organisation="Role4" mid="InvoiceDetail1">3</D_5482>
+                </C_C501>
+            </S_PCD>
+        </G_Group_8>
+        <G_Group_25 id="19" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+            <S_LIN details="Invoice1" id="20" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                <D_1082>1</D_1082>
+                <C_C212 id="21" nid="Item1" organisation="Role4" parent="LIN" mid="InvoiceDetail1">
+                    <D_7140 id="21" nid="Item1" organisation="Role4" parent="CC212" mid="InvoiceDetail1">08714318040222</D_7140>
+                    <D_7143 id="21" nid="Item1" organisation="Role4" parent="CC212" mid="InvoiceDetail1">EN</D_7143>
+                <D_EC212 id="21" nid="Item1" organisation="Role4" mid="InvoiceDetail1">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="22" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                <D_4347 id="22" nid="Item1" organisation="Role4" mid="InvoiceDetail1">5</D_4347>
+                <C_C212 id="23" nid="Item1" organisation="Role4" parent="PIA" mid="InvoiceDetail1">
+                    <D_7140 id="23" nid="Item1" organisation="Role4" parent="CC212" mid="InvoiceDetail1">GB052270100</D_7140>
+                    <D_7143 id="23" nid="Item1" organisation="Role4" parent="CC212" mid="InvoiceDetail1">SA</D_7143>
+                <D_EC212 id="23" nid="Item1" organisation="Role4" mid="InvoiceDetail1">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="24" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="24" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_7008>GB&#174; muurplaatanker M12x 250x50 met</D_7008>
+                    <D_7008_2>GB muurpl.ank M12x 250x50</D_7008_2>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="25" group="3" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                <C_C186 id="25" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_6063 id="25" nid="Item1" organisation="Role4" mid="InvoiceDetail1">12</D_6063>
+                    <D_6060 id="25" nid="Item1" organisation="Role4" mid="InvoiceDetail1">100</D_6060>
+                    <D_6411 id="25" nid="Item1" organisation="Role4" parent="CC186" mid="InvoiceDetail1">PCE</D_6411>
+                <D_QTYMaEinheit id="25" nid="Item1" organisation="Role4" mid="InvoiceDetail1">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="26" group="3" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                <C_C186 id="26" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_6063 id="26" nid="Item1" organisation="Role4" mid="InvoiceDetail1">47</D_6063>
+                    <D_6060 id="26" nid="Item1" organisation="Role4" mid="InvoiceDetail1">100</D_6060>
+                    <D_6411 id="26" nid="Item1" organisation="Role4" parent="CC186" mid="InvoiceDetail1">PCE</D_6411>
+                <D_QTYMaEinheit id="26" nid="Item1" organisation="Role4" mid="InvoiceDetail1">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="27" group="3" nid="Item1" organisation="Role4" parent="GGroup26" mid="InvoiceDetail1">
+                    <C_C516 id="27" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                        <D_5025 id="27" group="3" nid="Item1" organisation="Role4" mid="InvoiceDetail1">203</D_5025>
+                        <D_5004 id="27" nid="Item1" organisation="Role4" mid="InvoiceDetail1">93</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="28" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <C_C509 id="28" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                        <D_5125 id="28" nid="Item1" organisation="Role4" mid="InvoiceDetail1">INV</D_5125>
+                        <D_5118 id="28" nid="Item1" organisation="Role4" mid="InvoiceDetail1">186</D_5118>
+                        <D_5284>100</D_5284>
+                        <D_6411 id="28" nid="Item1" organisation="Role4" parent="CC509" mid="InvoiceDetail1">PCE</D_6411>
+                    <D_PriFu id="28">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="28" nid="Item1" organisation="Role4" mid="InvoiceDetail1">Stueck</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="29" group="3" nid="Item1" organisation="Role4" parent="GGroup33" mid="InvoiceDetail1">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="29" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                        <D_5153 id="29" nid="Item1" organisation="Role4" mid="InvoiceDetail1">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="29" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                        <D_5278 id="29" nid="Item1" organisation="Role4" mid="InvoiceDetail1">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="29" nid="Item1" organisation="Role4" mid="InvoiceDetail1">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="4">
+                <S_ALC id="30" group="4" nid="Item1" organisation="Role4" parent="GGroup38" mid="InvoiceDetail1">
+                    <D_5463 id="30" nid="Item1" organisation="Role4" parent="ALC" mid="InvoiceDetail1">A</D_5463>
+                    <C_C214 id="30" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                        <D_7161 id="30" nid="Item1" organisation="Role4" mid="InvoiceDetail1">ADR</D_7161>
+                    <D_AlcRea id="30" nid="Item1" organisation="Role4" mid="InvoiceDetail1">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="30" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail1">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="4">
+                    <S_MOA id="31" group="4" nid="Item1" organisation="Role4" parent="GGroup41" mid="InvoiceDetail1">
+                        <C_C516 id="31" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                            <D_5025 id="31" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail1">8</D_5025>
+                            <D_5004 id="31" nid="Item1" organisation="Role4" mid="InvoiceDetail1">93</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <S_UNS id="32" eancomstructure="Structure0">
+            <D_0081 id="32" eancomstructure="Structure0">S</D_0081>
+        </S_UNS>
+        <G_Group_48>
+            <S_MOA id="33" group="4" nid="Item1" organisation="Role4" parent="GGroup48" mid="InvoiceDetail1">
+                <C_C516 id="33" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_5025 id="33" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail1">77</D_5025>
+                    <D_5004 id="33" nid="Item1" organisation="Role4" mid="InvoiceDetail1">93</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_48>
+        <G_Group_48>
+            <S_MOA id="34" group="4" nid="Item1" organisation="Role4" parent="GGroup48" mid="InvoiceDetail1">
+                <C_C516 id="34" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_5025 id="34" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail1">79</D_5025>
+                    <D_5004 id="34" nid="Item1" organisation="Role4" mid="InvoiceDetail1">93</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_48>
+        <G_Group_48>
+            <S_MOA id="35" group="4" nid="Item1" organisation="Role4" parent="GGroup48" mid="InvoiceDetail1">
+                <C_C516 id="35" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_5025 id="35" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail1">176</D_5025>
+                    <D_5004 id="35" nid="Item1" organisation="Role4" mid="InvoiceDetail1">0</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_48>
+        <G_Group_48>
+            <S_MOA id="36" group="4" nid="Item1" organisation="Role4" parent="GGroup48" mid="InvoiceDetail1">
+                <C_C516 id="36" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_5025 id="36" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail1">129</D_5025>
+                    <D_5004 id="36" nid="Item1" organisation="Role4" mid="InvoiceDetail1">2.79</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_48>
+        <G_Group_48>
+            <S_MOA id="37" group="4" nid="Item1" organisation="Role4" parent="GGroup48" mid="InvoiceDetail1">
+                <C_C516 id="37" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_5025 id="37" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail1">125</D_5025>
+                    <D_5004 id="37" nid="Item1" organisation="Role4" mid="InvoiceDetail1">93</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_48>
+        <G_Group_50 id="37" mid="InvoiceDetail1">
+            <S_TAX id="38" group="4" nid="Item1" organisation="Role4" parent="GGroup50" mid="InvoiceDetail1">
+                <D_5283>7</D_5283>
+                <C_C241 id="38" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_5153 id="38" nid="Item1" organisation="Role4" mid="InvoiceDetail1">VAT</D_5153>
+                </C_C241>
+                <C_C243 id="38" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_5278 id="38" nid="Item1" organisation="Role4" mid="InvoiceDetail1">0</D_5278>
+                </C_C243>
+                <D_5305 id="38" nid="Item1" organisation="Role4" mid="InvoiceDetail1">E</D_5305>
+            </S_TAX>
+            <S_MOA id="39" group="4" nid="Item1" organisation="Role4" parent="GGroup50" mid="InvoiceDetail1">
+                <C_C516 id="39" nid="Item1" organisation="Role4" mid="InvoiceDetail1">
+                    <D_5025 id="39" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail1">124</D_5025>
+                    <D_5004 id="39" nid="Item1" organisation="Role4" mid="InvoiceDetail1">0</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_50>
+        <S_UNT id="40" eancomstructure="Structure0">
+            <D_0074 id="40" nid="Item1" organisation="Role4" mid="InvoiceDetail1">37</D_0074>
+            <D_0062 id="40" eancomstructure="Structure0">1</D_0062>
+        </S_UNT>
+    <Dokumentenname mid="InvoiceDetail1">Handelsrechnung</Dokumentenname><Dokumentenfunktion mid="InvoiceDetail1">Original</Dokumentenfunktion></Message>
+    <Message type="INVOIC" release="96A" version="D" details="Invoice2" id="41" mid="InvoiceDetail2">
+        <S_UNH details="Invoice2" id="42" eancomstructure="Structure0">
+            <D_0062 id="42" eancomstructure="Structure0">5</D_0062>
+            <C_S009 id="42" eancomstructure="Structure0">
+                <D_0065 id="42" eancomstructure="Structure0">INVOIC</D_0065>
+                <D_0052 id="42" eancomstructure="Structure0">D</D_0052>
+                <D_0054 id="42" eancomstructure="Structure0">96A</D_0054>
+                <D_0051 id="42" eancomstructure="Structure0">UN</D_0051>
+                <D_0057>EAN008</D_0057>
+            </C_S009>
+        </S_UNH>
+        <S_BGM id="43" mid="InvoiceDetail2">
+            <C_C002 id="43" nid="Item1" organisation="Role4" mid="InvoiceDetail2">
+                <D_1001 id="43" nid="Item1" organisation="Role4" mid="InvoiceDetail2">380</D_1001>
+            </C_C002>
+            <D_1004 id="43" nid="Item1" organisation="Role4" mid="InvoiceDetail2">23029061</D_1004>
+            <D_1225 id="43" nid="Item1" organisation="Role4" mid="InvoiceDetail2">9</D_1225>
+        </S_BGM>
+        <S_DTM id="44" nid="Item1" organisation="Role4" parent="Message" mid="InvoiceDetail2">
+            <C_C507 id="44" nid="Item1" organisation="Role4" mid="InvoiceDetail2">
+                <D_2005 id="44" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail2">137</D_2005>
+                <D_2380 id="44" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail2">20230608</D_2380>
+                <D_2379>102</D_2379>
+            </C_C507>
+        </S_DTM>
+        <S_DTM id="45" nid="Item1" organisation="Role4" parent="Message" mid="InvoiceDetail2">
+            <C_C507 id="45" nid="Item1" organisation="Role4" mid="InvoiceDetail2">
+                <D_2005 id="45" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail2">35</D_2005>
+                <D_2380 id="45" group="4" nid="Item1" organisation="Role4" mid="InvoiceDetail2">20230607</D_2380>
+                <D_2379>102</D_2379>
+            </C_C507>
+        </S_DTM>
+        <G_Group_1 id="45" group="5" mid="InvoiceDetail2">
+            <S_RFF id="46" nid="Item1" organisation="Role4" parent="GGroup1" mid="InvoiceDetail2">
+                <C_C506 id="46" nid="Item1" organisation="Role4" mid="InvoiceDetail2">
+                    <D_1153 id="46" nid="Item1" organisation="Role4" mid="InvoiceDetail2">ON</D_1153>
+                    <D_1154 id="46" nid="Item1" organisation="Role4" mid="InvoiceDetail2">16-88656-80</D_1154>
+                <D_ReFu id="46" group="5" nid="Item1" organisation="Role4" mid="InvoiceDetail2">Auftragsnummer_Kaeufer</D_ReFu></C_C506>
+            </S_RFF>
+        </G_Group_1>
+        <G_Group_1 id="46" group="6" mid="InvoiceDetail2">
+            <S_RFF id="47" nid="Item1" organisation="Role4" parent="GGroup1" mid="InvoiceDetail2">
+                <C_C506 id="47" nid="Item1" organisation="Role4" mid="InvoiceDetail2">
+                    <D_1153 id="47" nid="Item1" organisation="Role4" mid="InvoiceDetail2">VN</D_1153>
+                    <D_1154 id="47" nid="Item1" organisation="Role4" mid="InvoiceDetail2">VO311651</D_1154>
+                <D_ReFu id="47" group="6" nid="Item1" organisation="Role4" mid="InvoiceDetail2">Auftragsnummer_Lieferant</D_ReFu></C_C506>
+            </S_RFF>
+            <S_DTM id="48" nid="Item1" organisation="Role4" parent="GGroup1" mid="InvoiceDetail2">
+                <C_C507 id="48" nid="Item1" organisation="Role4" mid="InvoiceDetail2">
+                    <D_2005 id="48" group="6" nid="Item1" organisation="Role4" mid="InvoiceDetail2">171</D_2005>
+                    <D_2380 id="48" group="6" nid="Item1" organisation="Role4" mid="InvoiceDetail2">20230608</D_2380>
+                    <D_2379>102</D_2379>
+                </C_C507>
+            </S_DTM>
+        </G_Group_1>
+        <G_Group_2 id="48" mid="InvoiceDetail2">
+            <S_NAD details="Invoice2" id="49" nid="Item1" organisation="Role5" parent="GGroup2" mid="InvoiceDetail2">
+                <D_3035 id="49" nid="Item1" organisation="Role5" parent="NAD" mid="InvoiceDetail2">SU</D_3035>
+                <C_C082 id="49" nid="Item1" organisation="Role5" mid="InvoiceDetail2">
+                    <D_3039 id="49" nid="Item1" organisation="Role5" mid="InvoiceDetail2">7567559419641</D_3039>
+                    <D_3055>9</D_3055>
+                </C_C082>
+                <C_C080 id="49" nid="Item1" organisation="Role5" mid="InvoiceDetail2">
+                    <D_3036 id="49" nid="Item1" organisation="Role5" mid="InvoiceDetail2">Supplier</D_3036>
+                </C_C080>
+                <C_C059 id="49" nid="Item1" organisation="Role5" mid="InvoiceDetail2">
+                    <D_3042>Supplier Street 1</D_3042>
+                </C_C059>
+                <D_3164>Supplier Town</D_3164>
+                <D_3251>S-7403</D_3251>
+                <D_3207 id="49" nid="Item1" organisation="Role5" mid="InvoiceDetail2">SU</D_3207>
+            <D_PaFu id="49" nid="Item1" organisation="Role5" mid="InvoiceDetail2">Lieferant</D_PaFu></S_NAD>
+            <G_Group_3>
+                <S_RFF id="50" nid="Item1" organisation="Role5" parent="GGroup3" mid="InvoiceDetail2">
+                    <C_C506 id="50" nid="Item1" organisation="Role5" mid="InvoiceDetail2">
+                        <D_1153 id="50" nid="Item1" organisation="Role5" mid="InvoiceDetail2">VA</D_1153>
+                        <D_1154 id="50" nid="Item1" organisation="Role5" mid="InvoiceDetail2">54552510168725</D_1154>
+                    <D_ReFu id="50" group="6" nid="Item1" organisation="Role5" mid="InvoiceDetail2">Umsatzsteuernummer</D_ReFu></C_C506>
+                </S_RFF>
+            </G_Group_3>
+        </G_Group_2>
+        <G_Group_2 id="50" mid="InvoiceDetail2">
+            <S_NAD details="Invoice2" id="51" nid="Item1" organisation="Role6" parent="GGroup2" mid="InvoiceDetail2">
+                <D_3035 id="51" nid="Item1" organisation="Role6" parent="NAD" mid="InvoiceDetail2">BY</D_3035>
+                <C_C082 id="51" nid="Item1" organisation="Role6" mid="InvoiceDetail2">
+                    <D_3039 id="51" nid="Item1" organisation="Role6" mid="InvoiceDetail2">2644585412857</D_3039>
+                    <D_3055>9</D_3055>
+                </C_C082>
+                <C_C080 id="51" nid="Item1" organisation="Role6" mid="InvoiceDetail2">
+                    <D_3036 id="51" nid="Item1" organisation="Role6" mid="InvoiceDetail2">Buyer</D_3036>
+                </C_C080>
+                <C_C059 id="51" nid="Item1" organisation="Role6" mid="InvoiceDetail2">
+                    <D_3042>Buyer Street 1</D_3042>
+                </C_C059>
+                <D_3164>Buyer Town</D_3164>
+                <D_3251>B-6284</D_3251>
+                <D_3207 id="51" nid="Item1" organisation="Role6" mid="InvoiceDetail2">BY</D_3207>
+            <D_PaFu id="51" nid="Item1" organisation="Role6" mid="InvoiceDetail2">Kaeufer</D_PaFu></S_NAD>
+            <G_Group_3>
+                <S_RFF id="52" nid="Item1" organisation="Role6" parent="GGroup3" mid="InvoiceDetail2">
+                    <C_C506 id="52" nid="Item1" organisation="Role6" mid="InvoiceDetail2">
+                        <D_1153 id="52" nid="Item1" organisation="Role6" mid="InvoiceDetail2">VA</D_1153>
+                        <D_1154 id="52" nid="Item1" organisation="Role6" mid="InvoiceDetail2">691488027641</D_1154>
+                    <D_ReFu id="52" group="6" nid="Item1" organisation="Role6" mid="InvoiceDetail2">Umsatzsteuernummer</D_ReFu></C_C506>
+                </S_RFF>
+            </G_Group_3>
+        </G_Group_2>
+        <G_Group_2 id="52" mid="InvoiceDetail2">
+            <S_NAD details="Invoice2" id="53" nid="Item1" organisation="Role7" parent="GGroup2" mid="InvoiceDetail2">
+                <D_3035 id="53" nid="Item1" organisation="Role7" parent="NAD" mid="InvoiceDetail2">IV</D_3035>
+                <C_C082 id="53" nid="Item1" organisation="Role7" mid="InvoiceDetail2">
+                    <D_3039 id="53" nid="Item1" organisation="Role7" mid="InvoiceDetail2">5429542428157</D_3039>
+                    <D_3055>9</D_3055>
+                </C_C082>
+                <C_C080 id="53" nid="Item1" organisation="Role7" mid="InvoiceDetail2">
+                    <D_3036 id="53" nid="Item1" organisation="Role7" mid="InvoiceDetail2">Invoicee</D_3036>
+                </C_C080>
+                <C_C059 id="53" nid="Item1" organisation="Role7" mid="InvoiceDetail2">
+                    <D_3042>Invoicee Street 1</D_3042>
+                </C_C059>
+                <D_3164>Invoicee Town</D_3164>
+                <D_3251>I-5726</D_3251>
+                <D_3207 id="53" nid="Item1" organisation="Role7" mid="InvoiceDetail2">IV</D_3207>
+            <D_PaFu id="53" nid="Item1" organisation="Role7" mid="InvoiceDetail2">Rechnungsempfaenger</D_PaFu></S_NAD>
+            <G_Group_3>
+                <S_RFF id="54" nid="Item1" organisation="Role7" parent="GGroup3" mid="InvoiceDetail2">
+                    <C_C506 id="54" nid="Item1" organisation="Role7" mid="InvoiceDetail2">
+                        <D_1153 id="54" nid="Item1" organisation="Role7" mid="InvoiceDetail2">VA</D_1153>
+                        <D_1154 id="54" nid="Item1" organisation="Role7" mid="InvoiceDetail2">53390772355</D_1154>
+                    <D_ReFu id="54" group="6" nid="Item1" organisation="Role7" mid="InvoiceDetail2">Umsatzsteuernummer</D_ReFu></C_C506>
+                </S_RFF>
+            </G_Group_3>
+        </G_Group_2>
+        <G_Group_2 id="54" mid="InvoiceDetail2">
+            <S_NAD details="Invoice2" id="55" nid="Item1" organisation="Role8" parent="GGroup2" mid="InvoiceDetail2">
+                <D_3035 id="55" nid="Item1" organisation="Role8" parent="NAD" mid="InvoiceDetail2">DP</D_3035>
+                <C_C082 id="55" nid="Item1" organisation="Role8" mid="InvoiceDetail2">
+                    <D_3039 id="55" nid="Item1" organisation="Role8" mid="InvoiceDetail2">9412408405070</D_3039>
+                    <D_3055>9</D_3055>
+                </C_C082>
+                <C_C080 id="55" nid="Item1" organisation="Role8" mid="InvoiceDetail2">
+                    <D_3036 id="55" nid="Item1" organisation="Role8" mid="InvoiceDetail2">Delivery Party</D_3036>
+                </C_C080>
+                <C_C059 id="55" nid="Item1" organisation="Role8" mid="InvoiceDetail2">
+                    <D_3042>Delivery-Party Street 1</D_3042>
+                </C_C059>
+                <D_3164>Delivery-Party Town</D_3164>
+                <D_3251>D-2641</D_3251>
+                <D_3207 id="55" nid="Item1" organisation="Role8" mid="InvoiceDetail2">DP</D_3207>
+            <D_PaFu id="55" nid="Item1" organisation="Role8" mid="InvoiceDetail2">Lieferanschrift</D_PaFu></S_NAD>
+        </G_Group_2>
+        <G_Group_7 id="55" mid="InvoiceDetail2">
+            <S_CUX id="56" nid="Item1" organisation="Role8" parent="GGroup7" mid="InvoiceDetail2">
+                <C_C504 id="56" nid="Item1" organisation="Role8" parent="CUX" mid="InvoiceDetail2">
+                    <D_6347 id="56" nid="Item1" organisation="Role8" mid="InvoiceDetail2">2</D_6347>
+                    <D_6345 id="56" nid="Item1" organisation="Role8" mid="InvoiceDetail2">EUR</D_6345>
+                    <D_6343 id="56" nid="Item1" organisation="Role8" mid="InvoiceDetail2">4</D_6343>
+                <D_Wae id="56" nid="Item1" organisation="Role8" parent="CC504" mid="InvoiceDetail2">Euro</D_Wae></C_C504>
+            </S_CUX>
+        </G_Group_7>
+        <G_Group_8 id="56" mid="InvoiceDetail2">
+            <S_PAT id="57" nid="Item1" organisation="Role8" mid="InvoiceDetail2">
+                <D_4279 id="57" nid="Item1" organisation="Role8" mid="InvoiceDetail2">22</D_4279>
+                <C_C112 id="57" nid="Item1" organisation="Role8" mid="InvoiceDetail2">
+                    <D_2475 id="57" nid="Item1" organisation="Role8" mid="InvoiceDetail2">5</D_2475>
+                    <D_2009 id="57" nid="Item1" organisation="Role8" mid="InvoiceDetail2">3</D_2009>
+                    <D_2151 id="57" nid="Item1" organisation="Role8" mid="InvoiceDetail2">D</D_2151>
+                    <D_2152 id="57" nid="Item1" organisation="Role8" mid="InvoiceDetail2">60</D_2152>
+                <Zahlungsbezugstermin id="57" nid="Item1" organisation="Role8" mid="InvoiceDetail2">Rechnungsdatum </Zahlungsbezugstermin><Zeitbezug id="57" nid="Item1" organisation="Role8" mid="InvoiceDetail2">nach </Zeitbezug><ArtZeitspanne id="57" nid="Item1" organisation="Role8" mid="InvoiceDetail2"> Tag(e) </ArtZeitspanne></C_C112>
+            <ZahlungsbedingungsArt id="57">Abzug</ZahlungsbedingungsArt></S_PAT>
+            <S_PCD id="58" group="6" nid="Item1" organisation="Role8" parent="GGroup8" mid="InvoiceDetail2">
+                <C_C501 id="58" nid="Item1" organisation="Role8" mid="InvoiceDetail2">
+                    <D_5245 id="58" group="6" nid="Item1" organisation="Role8" mid="InvoiceDetail2">12</D_5245>
+                    <D_5482 id="58" nid="Item1" organisation="Role8" mid="InvoiceDetail2">3</D_5482>
+                </C_C501>
+            </S_PCD>
+        </G_Group_8>
+        <G_Group_25 id="58" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+            <S_LIN details="Invoice2" id="59" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                <D_1082>1</D_1082>
+                <C_C212 id="60" nid="Item2" organisation="Role8" parent="LIN" mid="InvoiceDetail2">
+                    <D_7140 id="60" nid="Item2" organisation="Role8" parent="CC212" mid="InvoiceDetail2">08712061209408</D_7140>
+                    <D_7143 id="60" nid="Item2" organisation="Role8" parent="CC212" mid="InvoiceDetail2">EN</D_7143>
+                <D_EC212 id="60" nid="Item2" organisation="Role8" mid="InvoiceDetail2">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="61" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                <D_4347 id="61" nid="Item2" organisation="Role8" mid="InvoiceDetail2">5</D_4347>
+                <C_C212 id="62" nid="Item2" organisation="Role8" parent="PIA" mid="InvoiceDetail2">
+                    <D_7140 id="62" nid="Item2" organisation="Role8" parent="CC212" mid="InvoiceDetail2">61540371</D_7140>
+                    <D_7143 id="62" nid="Item2" organisation="Role8" parent="CC212" mid="InvoiceDetail2">SA</D_7143>
+                <D_EC212 id="62" nid="Item2" organisation="Role8" mid="InvoiceDetail2">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="63" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="63" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                    <D_7008>Woodies&#174; Ultimate 4,0x 40/24 platve</D_7008>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="64" group="6" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="64" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="64" nid="Item2" organisation="Role8" mid="InvoiceDetail2">12</D_6063>
+                    <D_6060 id="64" nid="Item2" organisation="Role8" mid="InvoiceDetail2">2500</D_6060>
+                    <D_6411 id="64" nid="Item2" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="64" nid="Item2" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="65" group="6" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="65" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="65" nid="Item2" organisation="Role8" mid="InvoiceDetail2">47</D_6063>
+                    <D_6060 id="65" nid="Item2" organisation="Role8" mid="InvoiceDetail2">2500</D_6060>
+                    <D_6411 id="65" nid="Item2" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="65" nid="Item2" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="66" group="6" nid="Item2" organisation="Role8" parent="GGroup26" mid="InvoiceDetail2">
+                    <C_C516 id="66" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5025 id="66" group="6" nid="Item2" organisation="Role8" mid="InvoiceDetail2">203</D_5025>
+                        <D_5004 id="66" nid="Item2" organisation="Role8" mid="InvoiceDetail2">34.43</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="67" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                    <C_C509 id="67" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5125 id="67" nid="Item2" organisation="Role8" mid="InvoiceDetail2">INV</D_5125>
+                        <D_5118 id="67" nid="Item2" organisation="Role8" mid="InvoiceDetail2">3.13</D_5118>
+                        <D_5284>100</D_5284>
+                        <D_6411 id="67" nid="Item2" organisation="Role8" parent="CC509" mid="InvoiceDetail2">PCE</D_6411>
+                    <D_PriFu id="67">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="67" nid="Item2" organisation="Role8" mid="InvoiceDetail2">Stueck</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="68" group="6" nid="Item2" organisation="Role8" parent="GGroup33" mid="InvoiceDetail2">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="68" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5153 id="68" nid="Item2" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="68" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5278 id="68" nid="Item2" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="68" nid="Item2" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="7">
+                <S_ALC id="69" group="7" nid="Item2" organisation="Role8" parent="GGroup38" mid="InvoiceDetail2">
+                    <D_5463 id="69" nid="Item2" organisation="Role8" parent="ALC" mid="InvoiceDetail2">A</D_5463>
+                    <C_C214 id="69" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                        <D_7161 id="69" nid="Item2" organisation="Role8" mid="InvoiceDetail2">ADR</D_7161>
+                    <D_AlcRea id="69" nid="Item2" organisation="Role8" mid="InvoiceDetail2">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="69" group="7" nid="Item2" organisation="Role8" mid="InvoiceDetail2">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="7">
+                    <S_MOA id="70" group="7" nid="Item2" organisation="Role8" parent="GGroup41" mid="InvoiceDetail2">
+                        <C_C516 id="70" nid="Item2" organisation="Role8" mid="InvoiceDetail2">
+                            <D_5025 id="70" group="7" nid="Item2" organisation="Role8" mid="InvoiceDetail2">8</D_5025>
+                            <D_5004 id="70" nid="Item2" organisation="Role8" mid="InvoiceDetail2">43.82</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <G_Group_25 id="70" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+            <S_LIN details="Invoice2" id="71" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                <D_1082>2</D_1082>
+                <C_C212 id="72" nid="Item3" organisation="Role8" parent="LIN" mid="InvoiceDetail2">
+                    <D_7140 id="72" nid="Item3" organisation="Role8" parent="CC212" mid="InvoiceDetail2">08712061209842</D_7140>
+                    <D_7143 id="72" nid="Item3" organisation="Role8" parent="CC212" mid="InvoiceDetail2">EN</D_7143>
+                <D_EC212 id="72" nid="Item3" organisation="Role8" mid="InvoiceDetail2">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="73" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                <D_4347 id="73" nid="Item3" organisation="Role8" mid="InvoiceDetail2">5</D_4347>
+                <C_C212 id="74" nid="Item3" organisation="Role8" parent="PIA" mid="InvoiceDetail2">
+                    <D_7140 id="74" nid="Item3" organisation="Role8" parent="CC212" mid="InvoiceDetail2">61560731</D_7140>
+                    <D_7143 id="74" nid="Item3" organisation="Role8" parent="CC212" mid="InvoiceDetail2">SA</D_7143>
+                <D_EC212 id="74" nid="Item3" organisation="Role8" mid="InvoiceDetail2">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="75" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="75" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                    <D_7008>Woodies&#174; Ultimate 6,0x160/70 platve</D_7008>
+                    <D_7008_2>Woodies Ultimate 6,0x160/70 T30 vz</D_7008_2>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="76" group="7" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="76" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="76" nid="Item3" organisation="Role8" mid="InvoiceDetail2">12</D_6063>
+                    <D_6060 id="76" nid="Item3" organisation="Role8" mid="InvoiceDetail2">500</D_6060>
+                    <D_6411 id="76" nid="Item3" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="76" nid="Item3" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="77" group="7" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="77" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="77" nid="Item3" organisation="Role8" mid="InvoiceDetail2">47</D_6063>
+                    <D_6060 id="77" nid="Item3" organisation="Role8" mid="InvoiceDetail2">500</D_6060>
+                    <D_6411 id="77" nid="Item3" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="77" nid="Item3" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="78" group="7" nid="Item3" organisation="Role8" parent="GGroup26" mid="InvoiceDetail2">
+                    <C_C516 id="78" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5025 id="78" group="7" nid="Item3" organisation="Role8" mid="InvoiceDetail2">203</D_5025>
+                        <D_5004 id="78" nid="Item3" organisation="Role8" mid="InvoiceDetail2">87.69</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="79" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                    <C_C509 id="79" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5125 id="79" nid="Item3" organisation="Role8" mid="InvoiceDetail2">INV</D_5125>
+                        <D_5118 id="79" nid="Item3" organisation="Role8" mid="InvoiceDetail2">39.86</D_5118>
+                        <D_5284>100</D_5284>
+                        <D_6411 id="79" nid="Item3" organisation="Role8" parent="CC509" mid="InvoiceDetail2">PCE</D_6411>
+                    <D_PriFu id="79">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="79" nid="Item3" organisation="Role8" mid="InvoiceDetail2">Stueck</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="80" group="7" nid="Item3" organisation="Role8" parent="GGroup33" mid="InvoiceDetail2">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="80" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5153 id="80" nid="Item3" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="80" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5278 id="80" nid="Item3" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="80" nid="Item3" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="8">
+                <S_ALC id="81" group="8" nid="Item3" organisation="Role8" parent="GGroup38" mid="InvoiceDetail2">
+                    <D_5463 id="81" nid="Item3" organisation="Role8" parent="ALC" mid="InvoiceDetail2">A</D_5463>
+                    <C_C214 id="81" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                        <D_7161 id="81" nid="Item3" organisation="Role8" mid="InvoiceDetail2">ADR</D_7161>
+                    <D_AlcRea id="81" nid="Item3" organisation="Role8" mid="InvoiceDetail2">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="81" group="8" nid="Item3" organisation="Role8" mid="InvoiceDetail2">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="8">
+                    <S_MOA id="82" group="8" nid="Item3" organisation="Role8" parent="GGroup41" mid="InvoiceDetail2">
+                        <C_C516 id="82" nid="Item3" organisation="Role8" mid="InvoiceDetail2">
+                            <D_5025 id="82" group="8" nid="Item3" organisation="Role8" mid="InvoiceDetail2">8</D_5025>
+                            <D_5004 id="82" nid="Item3" organisation="Role8" mid="InvoiceDetail2">111.61</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <G_Group_25 id="82" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+            <S_LIN details="Invoice2" id="83" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                <D_1082>3</D_1082>
+                <C_C212 id="84" nid="Item4" organisation="Role8" parent="LIN" mid="InvoiceDetail2">
+                    <D_7140 id="84" nid="Item4" organisation="Role8" parent="CC212" mid="InvoiceDetail2">08712061268825</D_7140>
+                    <D_7143 id="84" nid="Item4" organisation="Role8" parent="CC212" mid="InvoiceDetail2">EN</D_7143>
+                <D_EC212 id="84" nid="Item4" organisation="Role8" mid="InvoiceDetail2">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="85" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                <D_4347 id="85" nid="Item4" organisation="Role8" mid="InvoiceDetail2">5</D_4347>
+                <C_C212 id="86" nid="Item4" organisation="Role8" parent="PIA" mid="InvoiceDetail2">
+                    <D_7140 id="86" nid="Item4" organisation="Role8" parent="CC212" mid="InvoiceDetail2">61560801</D_7140>
+                    <D_7143 id="86" nid="Item4" organisation="Role8" parent="CC212" mid="InvoiceDetail2">SA</D_7143>
+                <D_EC212 id="86" nid="Item4" organisation="Role8" mid="InvoiceDetail2">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="87" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="87" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                    <D_7008>Woodies&#174; Ultimate 6,0x220/70 platve</D_7008>
+                    <D_7008_2>Woodies Ultimate 6,0x220/70 T30 vz</D_7008_2>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="88" group="8" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="88" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="88" nid="Item4" organisation="Role8" mid="InvoiceDetail2">12</D_6063>
+                    <D_6060 id="88" nid="Item4" organisation="Role8" mid="InvoiceDetail2">500</D_6060>
+                    <D_6411 id="88" nid="Item4" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="88" nid="Item4" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="89" group="8" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="89" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="89" nid="Item4" organisation="Role8" mid="InvoiceDetail2">47</D_6063>
+                    <D_6060 id="89" nid="Item4" organisation="Role8" mid="InvoiceDetail2">500</D_6060>
+                    <D_6411 id="89" nid="Item4" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="89" nid="Item4" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="90" group="8" nid="Item4" organisation="Role8" parent="GGroup26" mid="InvoiceDetail2">
+                    <C_C516 id="90" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5025 id="90" group="8" nid="Item4" organisation="Role8" mid="InvoiceDetail2">203</D_5025>
+                        <D_5004 id="90" nid="Item4" organisation="Role8" mid="InvoiceDetail2">188.83</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="91" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                    <C_C509 id="91" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5125 id="91" nid="Item4" organisation="Role8" mid="InvoiceDetail2">INV</D_5125>
+                        <D_5118 id="91" nid="Item4" organisation="Role8" mid="InvoiceDetail2">85.83</D_5118>
+                        <D_5284>100</D_5284>
+                        <D_6411 id="91" nid="Item4" organisation="Role8" parent="CC509" mid="InvoiceDetail2">PCE</D_6411>
+                    <D_PriFu id="91">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="91" nid="Item4" organisation="Role8" mid="InvoiceDetail2">Stueck</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="92" group="8" nid="Item4" organisation="Role8" parent="GGroup33" mid="InvoiceDetail2">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="92" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5153 id="92" nid="Item4" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="92" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5278 id="92" nid="Item4" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="92" nid="Item4" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="9">
+                <S_ALC id="93" group="9" nid="Item4" organisation="Role8" parent="GGroup38" mid="InvoiceDetail2">
+                    <D_5463 id="93" nid="Item4" organisation="Role8" parent="ALC" mid="InvoiceDetail2">A</D_5463>
+                    <C_C214 id="93" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                        <D_7161 id="93" nid="Item4" organisation="Role8" mid="InvoiceDetail2">ADR</D_7161>
+                    <D_AlcRea id="93" nid="Item4" organisation="Role8" mid="InvoiceDetail2">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="93" group="9" nid="Item4" organisation="Role8" mid="InvoiceDetail2">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="9">
+                    <S_MOA id="94" group="9" nid="Item4" organisation="Role8" parent="GGroup41" mid="InvoiceDetail2">
+                        <C_C516 id="94" nid="Item4" organisation="Role8" mid="InvoiceDetail2">
+                            <D_5025 id="94" group="9" nid="Item4" organisation="Role8" mid="InvoiceDetail2">8</D_5025>
+                            <D_5004 id="94" nid="Item4" organisation="Role8" mid="InvoiceDetail2">240.32</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <G_Group_25 id="94" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+            <S_LIN details="Invoice2" id="95" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                <D_1082>4</D_1082>
+                <C_C212 id="96" nid="Item5" organisation="Role8" parent="LIN" mid="InvoiceDetail2">
+                    <D_7140 id="96" nid="Item5" organisation="Role8" parent="CC212" mid="InvoiceDetail2">08712061278640</D_7140>
+                    <D_7143 id="96" nid="Item5" organisation="Role8" parent="CC212" mid="InvoiceDetail2">EN</D_7143>
+                <D_EC212 id="96" nid="Item5" organisation="Role8" mid="InvoiceDetail2">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="97" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                <D_4347 id="97" nid="Item5" organisation="Role8" mid="InvoiceDetail2">5</D_4347>
+                <C_C212 id="98" nid="Item5" organisation="Role8" parent="PIA" mid="InvoiceDetail2">
+                    <D_7140 id="98" nid="Item5" organisation="Role8" parent="CC212" mid="InvoiceDetail2">61760311</D_7140>
+                    <D_7143 id="98" nid="Item5" organisation="Role8" parent="CC212" mid="InvoiceDetail2">SA</D_7143>
+                <D_EC212 id="98" nid="Item5" organisation="Role8" mid="InvoiceDetail2">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="99" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="99" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                    <D_7008>Woodies&#174; Ultimate 6,0x 30 tellerkop</D_7008>
+                    <D_7008_2>Woodies tk 6,0x 30 T30 vz</D_7008_2>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="100" group="9" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="100" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="100" nid="Item5" organisation="Role8" mid="InvoiceDetail2">12</D_6063>
+                    <D_6060 id="100" nid="Item5" organisation="Role8" mid="InvoiceDetail2">500</D_6060>
+                    <D_6411 id="100" nid="Item5" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="100" nid="Item5" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="101" group="9" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="101" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="101" nid="Item5" organisation="Role8" mid="InvoiceDetail2">47</D_6063>
+                    <D_6060 id="101" nid="Item5" organisation="Role8" mid="InvoiceDetail2">500</D_6060>
+                    <D_6411 id="101" nid="Item5" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="101" nid="Item5" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="102" group="9" nid="Item5" organisation="Role8" parent="GGroup26" mid="InvoiceDetail2">
+                    <C_C516 id="102" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5025 id="102" group="9" nid="Item5" organisation="Role8" mid="InvoiceDetail2">203</D_5025>
+                        <D_5004 id="102" nid="Item5" organisation="Role8" mid="InvoiceDetail2">24.11</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="103" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                    <C_C509 id="103" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5125 id="103" nid="Item5" organisation="Role8" mid="InvoiceDetail2">INV</D_5125>
+                        <D_5118 id="103" nid="Item5" organisation="Role8" mid="InvoiceDetail2">10.96</D_5118>
+                        <D_5284>100</D_5284>
+                        <D_6411 id="103" nid="Item5" organisation="Role8" parent="CC509" mid="InvoiceDetail2">PCE</D_6411>
+                    <D_PriFu id="103">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="103" nid="Item5" organisation="Role8" mid="InvoiceDetail2">Stueck</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="104" group="9" nid="Item5" organisation="Role8" parent="GGroup33" mid="InvoiceDetail2">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="104" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5153 id="104" nid="Item5" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="104" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5278 id="104" nid="Item5" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="104" nid="Item5" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="10">
+                <S_ALC id="105" group="10" nid="Item5" organisation="Role8" parent="GGroup38" mid="InvoiceDetail2">
+                    <D_5463 id="105" nid="Item5" organisation="Role8" parent="ALC" mid="InvoiceDetail2">A</D_5463>
+                    <C_C214 id="105" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                        <D_7161 id="105" nid="Item5" organisation="Role8" mid="InvoiceDetail2">ADR</D_7161>
+                    <D_AlcRea id="105" nid="Item5" organisation="Role8" mid="InvoiceDetail2">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="105" group="10" nid="Item5" organisation="Role8" mid="InvoiceDetail2">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="10">
+                    <S_MOA id="106" group="10" nid="Item5" organisation="Role8" parent="GGroup41" mid="InvoiceDetail2">
+                        <C_C516 id="106" nid="Item5" organisation="Role8" mid="InvoiceDetail2">
+                            <D_5025 id="106" group="10" nid="Item5" organisation="Role8" mid="InvoiceDetail2">8</D_5025>
+                            <D_5004 id="106" nid="Item5" organisation="Role8" mid="InvoiceDetail2">30.69</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <G_Group_25 id="106" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+            <S_LIN details="Invoice2" id="107" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                <D_1082>5</D_1082>
+                <C_C212 id="108" nid="Item6" organisation="Role8" parent="LIN" mid="InvoiceDetail2">
+                    <D_7140 id="108" nid="Item6" organisation="Role8" parent="CC212" mid="InvoiceDetail2">08712061692972</D_7140>
+                    <D_7143 id="108" nid="Item6" organisation="Role8" parent="CC212" mid="InvoiceDetail2">EN</D_7143>
+                <D_EC212 id="108" nid="Item6" organisation="Role8" mid="InvoiceDetail2">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="109" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                <D_4347 id="109" nid="Item6" organisation="Role8" mid="InvoiceDetail2">5</D_4347>
+                <C_C212 id="110" nid="Item6" organisation="Role8" parent="PIA" mid="InvoiceDetail2">
+                    <D_7140 id="110" nid="Item6" organisation="Role8" parent="CC212" mid="InvoiceDetail2">61841373</D_7140>
+                    <D_7143 id="110" nid="Item6" organisation="Role8" parent="CC212" mid="InvoiceDetail2">SA</D_7143>
+                <D_EC212 id="110" nid="Item6" organisation="Role8" mid="InvoiceDetail2">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="111" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="111" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                    <D_7008>Woodies&#174; Ultimate Shield Outdoor 4,</D_7008>
+                    <D_7008_2>Woodies 4,0x 40 vk T20 shield vd</D_7008_2>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="112" group="10" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="112" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="112" nid="Item6" organisation="Role8" mid="InvoiceDetail2">12</D_6063>
+                    <D_6060 id="112" nid="Item6" organisation="Role8" mid="InvoiceDetail2">1000</D_6060>
+                    <D_6411 id="112" nid="Item6" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="112" nid="Item6" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="113" group="10" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="113" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="113" nid="Item6" organisation="Role8" mid="InvoiceDetail2">47</D_6063>
+                    <D_6060 id="113" nid="Item6" organisation="Role8" mid="InvoiceDetail2">1000</D_6060>
+                    <D_6411 id="113" nid="Item6" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="113" nid="Item6" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="114" group="10" nid="Item6" organisation="Role8" parent="GGroup26" mid="InvoiceDetail2">
+                    <C_C516 id="114" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5025 id="114" group="10" nid="Item6" organisation="Role8" mid="InvoiceDetail2">203</D_5025>
+                        <D_5004 id="114" nid="Item6" organisation="Role8" mid="InvoiceDetail2">24.2</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="115" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                    <C_C509 id="115" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5125 id="115" nid="Item6" organisation="Role8" mid="InvoiceDetail2">INV</D_5125>
+                        <D_5118 id="115" nid="Item6" organisation="Role8" mid="InvoiceDetail2">5.5</D_5118>
+                        <D_5284>100</D_5284>
+                        <D_6411 id="115" nid="Item6" organisation="Role8" parent="CC509" mid="InvoiceDetail2">PCE</D_6411>
+                    <D_PriFu id="115">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="115" nid="Item6" organisation="Role8" mid="InvoiceDetail2">Stueck</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="116" group="10" nid="Item6" organisation="Role8" parent="GGroup33" mid="InvoiceDetail2">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="116" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5153 id="116" nid="Item6" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="116" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5278 id="116" nid="Item6" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="116" nid="Item6" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="11">
+                <S_ALC id="117" group="11" nid="Item6" organisation="Role8" parent="GGroup38" mid="InvoiceDetail2">
+                    <D_5463 id="117" nid="Item6" organisation="Role8" parent="ALC" mid="InvoiceDetail2">A</D_5463>
+                    <C_C214 id="117" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                        <D_7161 id="117" nid="Item6" organisation="Role8" mid="InvoiceDetail2">ADR</D_7161>
+                    <D_AlcRea id="117" nid="Item6" organisation="Role8" mid="InvoiceDetail2">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="117" group="11" nid="Item6" organisation="Role8" mid="InvoiceDetail2">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="11">
+                    <S_MOA id="118" group="11" nid="Item6" organisation="Role8" parent="GGroup41" mid="InvoiceDetail2">
+                        <C_C516 id="118" nid="Item6" organisation="Role8" mid="InvoiceDetail2">
+                            <D_5025 id="118" group="11" nid="Item6" organisation="Role8" mid="InvoiceDetail2">8</D_5025>
+                            <D_5004 id="118" nid="Item6" organisation="Role8" mid="InvoiceDetail2">30.8</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <G_Group_25 id="118" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+            <S_LIN details="Invoice2" id="119" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                <D_1082>6</D_1082>
+                <C_C212 id="120" nid="Item7" organisation="Role8" parent="LIN" mid="InvoiceDetail2">
+                    <D_7140 id="120" nid="Item7" organisation="Role8" parent="CC212" mid="InvoiceDetail2">08712061693658</D_7140>
+                    <D_7143 id="120" nid="Item7" organisation="Role8" parent="CC212" mid="InvoiceDetail2">EN</D_7143>
+                <D_EC212 id="120" nid="Item7" organisation="Role8" mid="InvoiceDetail2">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="121" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                <D_4347 id="121" nid="Item7" organisation="Role8" mid="InvoiceDetail2">5</D_4347>
+                <C_C212 id="122" nid="Item7" organisation="Role8" parent="PIA" mid="InvoiceDetail2">
+                    <D_7140 id="122" nid="Item7" organisation="Role8" parent="CC212" mid="InvoiceDetail2">61961701</D_7140>
+                    <D_7143 id="122" nid="Item7" organisation="Role8" parent="CC212" mid="InvoiceDetail2">SA</D_7143>
+                <D_EC212 id="122" nid="Item7" organisation="Role8" mid="InvoiceDetail2">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="123" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="123" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                    <D_7008>Woodies&#174; Ultimate Shield Outdoor 6,</D_7008>
+                    <D_7008_2>Woodies tk 6,0x140/80 T30 shield</D_7008_2>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="124" group="11" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="124" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="124" nid="Item7" organisation="Role8" mid="InvoiceDetail2">12</D_6063>
+                    <D_6060 id="124" nid="Item7" organisation="Role8" mid="InvoiceDetail2">250</D_6060>
+                    <D_6411 id="124" nid="Item7" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="124" nid="Item7" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="125" group="11" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="125" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="125" nid="Item7" organisation="Role8" mid="InvoiceDetail2">47</D_6063>
+                    <D_6060 id="125" nid="Item7" organisation="Role8" mid="InvoiceDetail2">250</D_6060>
+                    <D_6411 id="125" nid="Item7" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="125" nid="Item7" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="126" group="11" nid="Item7" organisation="Role8" parent="GGroup26" mid="InvoiceDetail2">
+                    <C_C516 id="126" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5025 id="126" group="11" nid="Item7" organisation="Role8" mid="InvoiceDetail2">203</D_5025>
+                        <D_5004 id="126" nid="Item7" organisation="Role8" mid="InvoiceDetail2">53.61</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="127" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                    <C_C509 id="127" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5125 id="127" nid="Item7" organisation="Role8" mid="InvoiceDetail2">INV</D_5125>
+                        <D_5118 id="127" nid="Item7" organisation="Role8" mid="InvoiceDetail2">48.73</D_5118>
+                        <D_5284>100</D_5284>
+                        <D_6411 id="127" nid="Item7" organisation="Role8" parent="CC509" mid="InvoiceDetail2">PCE</D_6411>
+                    <D_PriFu id="127">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="127" nid="Item7" organisation="Role8" mid="InvoiceDetail2">Stueck</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="128" group="11" nid="Item7" organisation="Role8" parent="GGroup33" mid="InvoiceDetail2">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="128" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5153 id="128" nid="Item7" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="128" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5278 id="128" nid="Item7" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="128" nid="Item7" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="12">
+                <S_ALC id="129" group="12" nid="Item7" organisation="Role8" parent="GGroup38" mid="InvoiceDetail2">
+                    <D_5463 id="129" nid="Item7" organisation="Role8" parent="ALC" mid="InvoiceDetail2">A</D_5463>
+                    <C_C214 id="129" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                        <D_7161 id="129" nid="Item7" organisation="Role8" mid="InvoiceDetail2">ADR</D_7161>
+                    <D_AlcRea id="129" nid="Item7" organisation="Role8" mid="InvoiceDetail2">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="129" group="12" nid="Item7" organisation="Role8" mid="InvoiceDetail2">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="12">
+                    <S_MOA id="130" group="12" nid="Item7" organisation="Role8" parent="GGroup41" mid="InvoiceDetail2">
+                        <C_C516 id="130" nid="Item7" organisation="Role8" mid="InvoiceDetail2">
+                            <D_5025 id="130" group="12" nid="Item7" organisation="Role8" mid="InvoiceDetail2">8</D_5025>
+                            <D_5004 id="130" nid="Item7" organisation="Role8" mid="InvoiceDetail2">68.22</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <G_Group_25 id="130" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+            <S_LIN details="Invoice2" id="131" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                <D_1082>7</D_1082>
+                <C_C212 id="132" nid="Item8" organisation="Role8" parent="LIN" mid="InvoiceDetail2">
+                    <D_7140 id="132" nid="Item8" organisation="Role8" parent="CC212" mid="InvoiceDetail2">04260192030308</D_7140>
+                    <D_7143 id="132" nid="Item8" organisation="Role8" parent="CC212" mid="InvoiceDetail2">EN</D_7143>
+                <D_EC212 id="132" nid="Item8" organisation="Role8" mid="InvoiceDetail2">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="133" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                <D_4347 id="133" nid="Item8" organisation="Role8" mid="InvoiceDetail2">5</D_4347>
+                <C_C212 id="134" nid="Item8" organisation="Role8" parent="PIA" mid="InvoiceDetail2">
+                    <D_7140 id="134" nid="Item8" organisation="Role8" parent="CC212" mid="InvoiceDetail2">17000013</D_7140>
+                    <D_7143 id="134" nid="Item8" organisation="Role8" parent="CC212" mid="InvoiceDetail2">SA</D_7143>
+                <D_EC212 id="134" nid="Item8" organisation="Role8" mid="InvoiceDetail2">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="135" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="135" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                    <D_7008>ABC ADAMAS&#174; ankermortel 1-component</D_7008>
+                    <D_7008_2>ABC ankermortel 1-comp 5kg</D_7008_2>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="136" group="12" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="136" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="136" nid="Item8" organisation="Role8" mid="InvoiceDetail2">12</D_6063>
+                    <D_6060 id="136" nid="Item8" organisation="Role8" mid="InvoiceDetail2">2</D_6060>
+                    <D_6411 id="136" nid="Item8" organisation="Role8" parent="CC186" mid="InvoiceDetail2">BJ</D_6411>
+                <D_QTYMaEinheit id="136" nid="Item8" organisation="Role8" mid="InvoiceDetail2">BJnicht_vorhanden</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="137" group="12" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="137" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="137" nid="Item8" organisation="Role8" mid="InvoiceDetail2">47</D_6063>
+                    <D_6060 id="137" nid="Item8" organisation="Role8" mid="InvoiceDetail2">2</D_6060>
+                    <D_6411 id="137" nid="Item8" organisation="Role8" parent="CC186" mid="InvoiceDetail2">BJ</D_6411>
+                <D_QTYMaEinheit id="137" nid="Item8" organisation="Role8" mid="InvoiceDetail2">BJnicht_vorhanden</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="138" group="12" nid="Item8" organisation="Role8" parent="GGroup26" mid="InvoiceDetail2">
+                    <C_C516 id="138" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5025 id="138" group="12" nid="Item8" organisation="Role8" mid="InvoiceDetail2">203</D_5025>
+                        <D_5004 id="138" nid="Item8" organisation="Role8" mid="InvoiceDetail2">75.69</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="139" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                    <C_C509 id="139" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5125 id="139" nid="Item8" organisation="Role8" mid="InvoiceDetail2">INV</D_5125>
+                        <D_5118 id="139" nid="Item8" organisation="Role8" mid="InvoiceDetail2">75.69</D_5118>
+                        <D_5284>1</D_5284>
+                        <D_6411 id="139" nid="Item8" organisation="Role8" parent="CC509" mid="InvoiceDetail2">BJ</D_6411>
+                    <D_PriFu id="139">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="139" nid="Item8" organisation="Role8" mid="InvoiceDetail2">BJnicht_vorhanden</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="140" group="12" nid="Item8" organisation="Role8" parent="GGroup33" mid="InvoiceDetail2">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="140" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5153 id="140" nid="Item8" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="140" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5278 id="140" nid="Item8" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="140" nid="Item8" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="13">
+                <S_ALC id="141" group="13" nid="Item8" organisation="Role8" parent="GGroup38" mid="InvoiceDetail2">
+                    <D_5463 id="141" nid="Item8" organisation="Role8" parent="ALC" mid="InvoiceDetail2">A</D_5463>
+                    <C_C214 id="141" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                        <D_7161 id="141" nid="Item8" organisation="Role8" mid="InvoiceDetail2">ADR</D_7161>
+                    <D_AlcRea id="141" nid="Item8" organisation="Role8" mid="InvoiceDetail2">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="141" group="13" nid="Item8" organisation="Role8" mid="InvoiceDetail2">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="13">
+                    <S_MOA id="142" group="13" nid="Item8" organisation="Role8" parent="GGroup41" mid="InvoiceDetail2">
+                        <C_C516 id="142" nid="Item8" organisation="Role8" mid="InvoiceDetail2">
+                            <D_5025 id="142" group="13" nid="Item8" organisation="Role8" mid="InvoiceDetail2">8</D_5025>
+                            <D_5004 id="142" nid="Item8" organisation="Role8" mid="InvoiceDetail2">75.69</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <G_Group_25 id="142" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+            <S_LIN details="Invoice2" id="143" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                <D_1082>8</D_1082>
+                <C_C212 id="144" nid="Item9" organisation="Role8" parent="LIN" mid="InvoiceDetail2">
+                    <D_7140 id="144" nid="Item9" organisation="Role8" parent="CC212" mid="InvoiceDetail2">08712061727711</D_7140>
+                    <D_7143 id="144" nid="Item9" organisation="Role8" parent="CC212" mid="InvoiceDetail2">EN</D_7143>
+                <D_EC212 id="144" nid="Item9" organisation="Role8" mid="InvoiceDetail2">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="145" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                <D_4347 id="145" nid="Item9" organisation="Role8" mid="InvoiceDetail2">5</D_4347>
+                <C_C212 id="146" nid="Item9" organisation="Role8" parent="PIA" mid="InvoiceDetail2">
+                    <D_7140 id="146" nid="Item9" organisation="Role8" parent="CC212" mid="InvoiceDetail2">61550341</D_7140>
+                    <D_7143 id="146" nid="Item9" organisation="Role8" parent="CC212" mid="InvoiceDetail2">SA</D_7143>
+                <D_EC212 id="146" nid="Item9" organisation="Role8" mid="InvoiceDetail2">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="147" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="147" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                    <D_7008>Woodies&#174; Ultimate 5,0x 35/18 platve</D_7008>
+                    <D_7008_2>Woodies Ultimate 5,0x 35/18 T25 vz</D_7008_2>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="148" group="13" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="148" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="148" nid="Item9" organisation="Role8" mid="InvoiceDetail2">12</D_6063>
+                    <D_6060 id="148" nid="Item9" organisation="Role8" mid="InvoiceDetail2">600</D_6060>
+                    <D_6411 id="148" nid="Item9" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="148" nid="Item9" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="149" group="13" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="149" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="149" nid="Item9" organisation="Role8" mid="InvoiceDetail2">47</D_6063>
+                    <D_6060 id="149" nid="Item9" organisation="Role8" mid="InvoiceDetail2">600</D_6060>
+                    <D_6411 id="149" nid="Item9" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="149" nid="Item9" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="150" group="13" nid="Item9" organisation="Role8" parent="GGroup26" mid="InvoiceDetail2">
+                    <C_C516 id="150" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5025 id="150" group="13" nid="Item9" organisation="Role8" mid="InvoiceDetail2">203</D_5025>
+                        <D_5004 id="150" nid="Item9" organisation="Role8" mid="InvoiceDetail2">12.57</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="151" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                    <C_C509 id="151" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5125 id="151" nid="Item9" organisation="Role8" mid="InvoiceDetail2">INV</D_5125>
+                        <D_5118 id="151" nid="Item9" organisation="Role8" mid="InvoiceDetail2">4.76</D_5118>
+                        <D_5284>100</D_5284>
+                        <D_6411 id="151" nid="Item9" organisation="Role8" parent="CC509" mid="InvoiceDetail2">PCE</D_6411>
+                    <D_PriFu id="151">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="151" nid="Item9" organisation="Role8" mid="InvoiceDetail2">Stueck</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="152" group="13" nid="Item9" organisation="Role8" parent="GGroup33" mid="InvoiceDetail2">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="152" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5153 id="152" nid="Item9" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="152" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5278 id="152" nid="Item9" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="152" nid="Item9" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="14">
+                <S_ALC id="153" group="14" nid="Item9" organisation="Role8" parent="GGroup38" mid="InvoiceDetail2">
+                    <D_5463 id="153" nid="Item9" organisation="Role8" parent="ALC" mid="InvoiceDetail2">A</D_5463>
+                    <C_C214 id="153" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                        <D_7161 id="153" nid="Item9" organisation="Role8" mid="InvoiceDetail2">ADR</D_7161>
+                    <D_AlcRea id="153" nid="Item9" organisation="Role8" mid="InvoiceDetail2">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="153" group="14" nid="Item9" organisation="Role8" mid="InvoiceDetail2">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="14">
+                    <S_MOA id="154" group="14" nid="Item9" organisation="Role8" parent="GGroup41" mid="InvoiceDetail2">
+                        <C_C516 id="154" nid="Item9" organisation="Role8" mid="InvoiceDetail2">
+                            <D_5025 id="154" group="14" nid="Item9" organisation="Role8" mid="InvoiceDetail2">8</D_5025>
+                            <D_5004 id="154" nid="Item9" organisation="Role8" mid="InvoiceDetail2">15.99</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <G_Group_25 id="154" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+            <S_LIN details="Invoice2" id="155" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                <D_1082>9</D_1082>
+                <C_C212 id="156" nid="Item10" organisation="Role8" parent="LIN" mid="InvoiceDetail2">
+                    <D_7140 id="156" nid="Item10" organisation="Role8" parent="CC212" mid="InvoiceDetail2">08712061278503</D_7140>
+                    <D_7143 id="156" nid="Item10" organisation="Role8" parent="CC212" mid="InvoiceDetail2">EN</D_7143>
+                <D_EC212 id="156" nid="Item10" organisation="Role8" mid="InvoiceDetail2">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="157" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                <D_4347 id="157" nid="Item10" organisation="Role8" mid="InvoiceDetail2">5</D_4347>
+                <C_C212 id="158" nid="Item10" organisation="Role8" parent="PIA" mid="InvoiceDetail2">
+                    <D_7140 id="158" nid="Item10" organisation="Role8" parent="CC212" mid="InvoiceDetail2">61760641</D_7140>
+                    <D_7143 id="158" nid="Item10" organisation="Role8" parent="CC212" mid="InvoiceDetail2">SA</D_7143>
+                <D_EC212 id="158" nid="Item10" organisation="Role8" mid="InvoiceDetail2">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="159" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="159" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                    <D_7008>Woodies&#174; Ultimate 6,0x120/70 teller</D_7008>
+                    <D_7008_2>Woodies tk 6,0x120/70 T30 vz</D_7008_2>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="160" group="14" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="160" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="160" nid="Item10" organisation="Role8" mid="InvoiceDetail2">12</D_6063>
+                    <D_6060 id="160" nid="Item10" organisation="Role8" mid="InvoiceDetail2">500</D_6060>
+                    <D_6411 id="160" nid="Item10" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="160" nid="Item10" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="161" group="14" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="161" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="161" nid="Item10" organisation="Role8" mid="InvoiceDetail2">47</D_6063>
+                    <D_6060 id="161" nid="Item10" organisation="Role8" mid="InvoiceDetail2">500</D_6060>
+                    <D_6411 id="161" nid="Item10" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="161" nid="Item10" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="162" group="14" nid="Item10" organisation="Role8" parent="GGroup26" mid="InvoiceDetail2">
+                    <C_C516 id="162" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5025 id="162" group="14" nid="Item10" organisation="Role8" mid="InvoiceDetail2">203</D_5025>
+                        <D_5004 id="162" nid="Item10" organisation="Role8" mid="InvoiceDetail2">58.17</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="163" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                    <C_C509 id="163" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5125 id="163" nid="Item10" organisation="Role8" mid="InvoiceDetail2">INV</D_5125>
+                        <D_5118 id="163" nid="Item10" organisation="Role8" mid="InvoiceDetail2">26.44</D_5118>
+                        <D_5284>100</D_5284>
+                        <D_6411 id="163" nid="Item10" organisation="Role8" parent="CC509" mid="InvoiceDetail2">PCE</D_6411>
+                    <D_PriFu id="163">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="163" nid="Item10" organisation="Role8" mid="InvoiceDetail2">Stueck</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="164" group="14" nid="Item10" organisation="Role8" parent="GGroup33" mid="InvoiceDetail2">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="164" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5153 id="164" nid="Item10" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="164" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5278 id="164" nid="Item10" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="164" nid="Item10" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="15">
+                <S_ALC id="165" group="15" nid="Item10" organisation="Role8" parent="GGroup38" mid="InvoiceDetail2">
+                    <D_5463 id="165" nid="Item10" organisation="Role8" parent="ALC" mid="InvoiceDetail2">A</D_5463>
+                    <C_C214 id="165" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                        <D_7161 id="165" nid="Item10" organisation="Role8" mid="InvoiceDetail2">ADR</D_7161>
+                    <D_AlcRea id="165" nid="Item10" organisation="Role8" mid="InvoiceDetail2">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="165" group="15" nid="Item10" organisation="Role8" mid="InvoiceDetail2">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="15">
+                    <S_MOA id="166" group="15" nid="Item10" organisation="Role8" parent="GGroup41" mid="InvoiceDetail2">
+                        <C_C516 id="166" nid="Item10" organisation="Role8" mid="InvoiceDetail2">
+                            <D_5025 id="166" group="15" nid="Item10" organisation="Role8" mid="InvoiceDetail2">8</D_5025>
+                            <D_5004 id="166" nid="Item10" organisation="Role8" mid="InvoiceDetail2">74.03</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <G_Group_25 id="166" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+            <S_LIN details="Invoice2" id="167" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                <D_1082>10</D_1082>
+                <C_C212 id="168" nid="Item11" organisation="Role8" parent="LIN" mid="InvoiceDetail2">
+                    <D_7140 id="168" nid="Item11" organisation="Role8" parent="CC212" mid="InvoiceDetail2">08712061300846</D_7140>
+                    <D_7143 id="168" nid="Item11" organisation="Role8" parent="CC212" mid="InvoiceDetail2">EN</D_7143>
+                <D_EC212 id="168" nid="Item11" organisation="Role8" mid="InvoiceDetail2">International Article Number</D_EC212></C_C212>
+            </S_LIN>
+            <S_PIA id="169" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                <D_4347 id="169" nid="Item11" organisation="Role8" mid="InvoiceDetail2">5</D_4347>
+                <C_C212 id="170" nid="Item11" organisation="Role8" parent="PIA" mid="InvoiceDetail2">
+                    <D_7140 id="170" nid="Item11" organisation="Role8" parent="CC212" mid="InvoiceDetail2">61560711</D_7140>
+                    <D_7143 id="170" nid="Item11" organisation="Role8" parent="CC212" mid="InvoiceDetail2">SA</D_7143>
+                <D_EC212 id="170" nid="Item11" organisation="Role8" mid="InvoiceDetail2">Artikelnummer des Lieferanten</D_EC212></C_C212>
+            </S_PIA>
+            <S_IMD id="171" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                <D_7077>F</D_7077>
+                <D_7081>DSC</D_7081>
+                <C_C273 id="171" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_7008>Woodies&#174; Ultimate 6,0x150/70 platve</D_7008>
+                    <D_7008_2>Woodies Ultimate 6,0x150/70 T30 vz</D_7008_2>
+                </C_C273>
+            </S_IMD>
+            <S_QTY id="172" group="15" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="172" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="172" nid="Item11" organisation="Role8" mid="InvoiceDetail2">12</D_6063>
+                    <D_6060 id="172" nid="Item11" organisation="Role8" mid="InvoiceDetail2">500</D_6060>
+                    <D_6411 id="172" nid="Item11" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="172" nid="Item11" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <S_QTY id="173" group="15" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                <C_C186 id="173" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_6063 id="173" nid="Item11" organisation="Role8" mid="InvoiceDetail2">47</D_6063>
+                    <D_6060 id="173" nid="Item11" organisation="Role8" mid="InvoiceDetail2">500</D_6060>
+                    <D_6411 id="173" nid="Item11" organisation="Role8" parent="CC186" mid="InvoiceDetail2">PCE</D_6411>
+                <D_QTYMaEinheit id="173" nid="Item11" organisation="Role8" mid="InvoiceDetail2">Stueck</D_QTYMaEinheit></C_C186>
+            </S_QTY>
+            <G_Group_26>
+                <S_MOA id="174" group="15" nid="Item11" organisation="Role8" parent="GGroup26" mid="InvoiceDetail2">
+                    <C_C516 id="174" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5025 id="174" group="15" nid="Item11" organisation="Role8" mid="InvoiceDetail2">203</D_5025>
+                        <D_5004 id="174" nid="Item11" organisation="Role8" mid="InvoiceDetail2">86.33</D_5004>
+                    </C_C516>
+                </S_MOA>
+            </G_Group_26>
+            <G_Group_28>
+                <S_PRI id="175" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <C_C509 id="175" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5125 id="175" nid="Item11" organisation="Role8" mid="InvoiceDetail2">INV</D_5125>
+                        <D_5118 id="175" nid="Item11" organisation="Role8" mid="InvoiceDetail2">39.24</D_5118>
+                        <D_5284>100</D_5284>
+                        <D_6411 id="175" nid="Item11" organisation="Role8" parent="CC509" mid="InvoiceDetail2">PCE</D_6411>
+                    <D_PriFu id="175">Rechnungspreis</D_PriFu><D_PRIMaEinheit id="175" nid="Item11" organisation="Role8" mid="InvoiceDetail2">Stueck</D_PRIMaEinheit></C_C509>
+                </S_PRI>
+            </G_Group_28>
+            <G_Group_33>
+                <S_TAX id="176" group="15" nid="Item11" organisation="Role8" parent="GGroup33" mid="InvoiceDetail2">
+                    <D_5283>7</D_5283>
+                    <C_C241 id="176" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5153 id="176" nid="Item11" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                    </C_C241>
+                    <C_C243 id="176" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                        <D_5278 id="176" nid="Item11" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                    </C_C243>
+                    <D_5305 id="176" nid="Item11" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+                </S_TAX>
+            </G_Group_33>
+            <G_Group_38 group="16">
+                <S_ALC id="177" group="16" nid="Item11" organisation="Role8" parent="GGroup38" mid="InvoiceDetail2">
+                    <D_5463 id="177" nid="Item11" organisation="Role8" parent="ALC" mid="InvoiceDetail2">A</D_5463>
+                    <C_C214 id="177" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                        <D_7161 id="177" nid="Item11" organisation="Role8" mid="InvoiceDetail2">ADR</D_7161>
+                    <D_AlcRea id="177" nid="Item11" organisation="Role8" mid="InvoiceDetail2">Andere Dienste</D_AlcRea></C_C214>
+                <D_AlcEx id="177" group="16" nid="Item11" organisation="Role8" mid="InvoiceDetail2">Abschlag</D_AlcEx></S_ALC>
+                <G_Group_41 group="16">
+                    <S_MOA id="178" group="16" nid="Item11" organisation="Role8" parent="GGroup41" mid="InvoiceDetail2">
+                        <C_C516 id="178" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                            <D_5025 id="178" group="16" nid="Item11" organisation="Role8" mid="InvoiceDetail2">8</D_5025>
+                            <D_5004 id="178" nid="Item11" organisation="Role8" mid="InvoiceDetail2">109.87</D_5004>
+                        </C_C516>
+                    </S_MOA>
+                </G_Group_41>
+            </G_Group_38>
+        </G_Group_25>
+        <S_UNS id="179" eancomstructure="Structure0">
+            <D_0081 id="179" eancomstructure="Structure0">S</D_0081>
+        </S_UNS>
+        <G_Group_48>
+            <S_MOA id="180" group="16" nid="Item11" organisation="Role8" parent="GGroup48" mid="InvoiceDetail2">
+                <C_C516 id="180" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_5025 id="180" group="16" nid="Item11" organisation="Role8" mid="InvoiceDetail2">77</D_5025>
+                    <D_5004 id="180" nid="Item11" organisation="Role8" mid="InvoiceDetail2">645.63</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_48>
+        <G_Group_48>
+            <S_MOA id="181" group="16" nid="Item11" organisation="Role8" parent="GGroup48" mid="InvoiceDetail2">
+                <C_C516 id="181" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_5025 id="181" group="16" nid="Item11" organisation="Role8" mid="InvoiceDetail2">79</D_5025>
+                    <D_5004 id="181" nid="Item11" organisation="Role8" mid="InvoiceDetail2">645.63</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_48>
+        <G_Group_48>
+            <S_MOA id="182" group="16" nid="Item11" organisation="Role8" parent="GGroup48" mid="InvoiceDetail2">
+                <C_C516 id="182" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_5025 id="182" group="16" nid="Item11" organisation="Role8" mid="InvoiceDetail2">176</D_5025>
+                    <D_5004 id="182" nid="Item11" organisation="Role8" mid="InvoiceDetail2">0</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_48>
+        <G_Group_48>
+            <S_MOA id="183" group="16" nid="Item11" organisation="Role8" parent="GGroup48" mid="InvoiceDetail2">
+                <C_C516 id="183" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_5025 id="183" group="16" nid="Item11" organisation="Role8" mid="InvoiceDetail2">129</D_5025>
+                    <D_5004 id="183" nid="Item11" organisation="Role8" mid="InvoiceDetail2">19.37</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_48>
+        <G_Group_48>
+            <S_MOA id="184" group="16" nid="Item11" organisation="Role8" parent="GGroup48" mid="InvoiceDetail2">
+                <C_C516 id="184" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_5025 id="184" group="16" nid="Item11" organisation="Role8" mid="InvoiceDetail2">125</D_5025>
+                    <D_5004 id="184" nid="Item11" organisation="Role8" mid="InvoiceDetail2">645.63</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_48>
+        <G_Group_50 id="184" mid="InvoiceDetail2">
+            <S_TAX id="185" group="16" nid="Item11" organisation="Role8" parent="GGroup50" mid="InvoiceDetail2">
+                <D_5283>7</D_5283>
+                <C_C241 id="185" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_5153 id="185" nid="Item11" organisation="Role8" mid="InvoiceDetail2">VAT</D_5153>
+                </C_C241>
+                <C_C243 id="185" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_5278 id="185" nid="Item11" organisation="Role8" mid="InvoiceDetail2">0</D_5278>
+                </C_C243>
+                <D_5305 id="185" nid="Item11" organisation="Role8" mid="InvoiceDetail2">E</D_5305>
+            </S_TAX>
+            <S_MOA id="186" group="16" nid="Item11" organisation="Role8" parent="GGroup50" mid="InvoiceDetail2">
+                <C_C516 id="186" nid="Item11" organisation="Role8" mid="InvoiceDetail2">
+                    <D_5025 id="186" group="16" nid="Item11" organisation="Role8" mid="InvoiceDetail2">124</D_5025>
+                    <D_5004 id="186" nid="Item11" organisation="Role8" mid="InvoiceDetail2">0</D_5004>
+                </C_C516>
+            </S_MOA>
+        </G_Group_50>
+        <S_UNT id="187" eancomstructure="Structure0">
+            <D_0074 id="187" nid="Item11" organisation="Role8" mid="InvoiceDetail2">127</D_0074>
+            <D_0062 id="187" eancomstructure="Structure0">5</D_0062>
+        </S_UNT>
+    <Dokumentenname mid="InvoiceDetail2">Handelsrechnung</Dokumentenname><Dokumentenfunktion mid="InvoiceDetail2">Original</Dokumentenfunktion></Message>
+    <S_UNZ id="187" eancomstructure="Structure0">
+        <D_0036 id="187" eancomstructure="Structure0">6</D_0036>
+        <D_0020 id="187" eancomstructure="Structure0">80</D_0020>
+    </S_UNZ>
+</Interchange>

@@ -1,0 +1,1087 @@
+prefixes:
+ dc: http://purl.org/dc/elements/1.1# 
+ edifact-o: https://purl.org/edifact/ontology#
+ frapo: http://purl.org/cerif/frapo/
+ org: http://www.w3.org/ns/org# 
+ p2p-o: https://purl.org/p2p-o#
+ p2p-o-doc: https://purl.org/p2p-o/document#
+ p2p-o-doc-line: https://purl.org/p2p-o/documentline#
+ p2p-o-inv: https://purl.org/p2p-o/invoice#
+ p2p-o-item: https://purl.org/p2p-o/item#
+ p2p-o-org: https://purl.org/p2p-o/organization#
+ schema: http://schema.org/ 
+ vcard: http://www.w3.org/2006/vcard/ns# 
+ agentRole: https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole# 
+
+
+
+sources:
+    test-source0:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/S_UNB"
+    test-source120:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/S_UNB/C_S001"
+    test-source121:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/S_UNB/C_S002"
+    test-source122:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/S_UNB/C_S003"
+    test-source123:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/S_UNB/C_S004"
+    test-source124:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/S_UNB/C_S005"
+    test-source1:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message"
+    test-source2:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_UNH"
+    test-source125:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_UNH/C_S009"
+    test-source126:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_UNH/C_S010"
+    test-source3:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_BGM"
+    test-source127:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_BGM/C_C002"
+    test-source4:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_DTM"
+    test-source128:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_DTM/C_C507"
+    test-source5:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_PAI"
+    test-source129:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_PAI/C_C534"
+    test-source6:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_ALI"
+    test-source7:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_FTX"
+    test-source130:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_FTX/C_C107"
+    test-source131:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_FTX/C_C108"
+    test-source8:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_1"
+    test-source9:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_1/S_RFF"
+    test-source132:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_1/S_RFF/C_C506"
+    test-source10:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_1/S_DTM"
+    test-source133:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_1/S_DTM/C_C507"
+    test-source11:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2"
+    test-source12:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/S_NAD"
+    test-source134:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/S_NAD/C_C082"
+    test-source135:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/S_NAD/C_C058"
+    test-source136:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/S_NAD/C_C080"
+    test-source137:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/S_NAD/C_C059"
+    test-source13:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/S_FII"
+    test-source138:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/S_FII/C_C078"
+    test-source139:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/S_FII/C_C088"
+    test-source14:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/G_Group_3"
+    test-source15:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/G_Group_3/S_RFF"
+    test-source140:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/G_Group_3/S_RFF/C_C506"
+    test-source16:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/G_Group_5/S_CTA"
+    test-source141:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/G_Group_5/S_CTA/C_C056"
+    test-source17:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/G_Group_5/S_COM"
+    test-source142:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_2/G_Group_5/S_COM/C_C076"
+    test-source18:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_6"
+    test-source19:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_6/S_TAX"
+    test-source143:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_6/S_TAX/C_C241"
+    test-source144:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_6/S_TAX/C_C533"
+    test-source145:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_6/S_TAX/C_C243"
+    test-source20:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_6/S_MOA"
+    test-source146:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_6/S_MOA/C_C516"
+    test-source21:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_7"      
+    test-source22:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_7/S_CUX"
+    test-source147:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_7/S_CUX/C_C504"
+    test-source23:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_7/S_DTM"
+    test-source148:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_7/S_DTM/C_C507"
+    test-source24:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_8"
+    test-source25:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_8/S_PAT"
+    test-source149:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_8/S_PAT/C_C110"
+    test-source150:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_8/S_PAT/C_C112"
+    test-source26:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_8/S_DTM"
+    test-source151:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_8/S_DTM/C_C507"
+    test-source27:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_8/S_PCD"
+    test-source152:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_8/S_PCD/C_C501"
+    test-source28:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_8/S_MOA"
+    test-source153:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_8/S_MOA/C516"
+    test-source29:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_9"
+    test-source30:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_9/S_TDT"
+    test-source154:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_9/S_TDT/C_C220"
+    test-source155:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_9/S_TDT/C_C228"
+    test-source156:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_9/S_TDT/C_C040"
+    test-source157:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_9/S_TDT/C_C401"
+    test-source158:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_9/S_TDT/C_C222"
+    test-source31:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12"
+    test-source32:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_TOD"
+    test-source159:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_TOD/C_C100"
+    test-source33:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_LOC"
+    test-source160:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_LOC/C_C517"
+    test-source161:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_LOC/C_C519"
+    test-source162:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_LOC/C_C553"
+    test-source34:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_13"
+    test-source35:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_PAC"
+    test-source163:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_PAC/C_C531"
+    test-source164:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_PAC/C_C202"
+    test-source165:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_PAC/C_C402"
+    test-source166:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_12/S_PAC/C_C532"
+    test-source36:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15"
+    test-source167:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/S_ALC/C_C552"
+    test-source168:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/S_ALC/C_C214"
+    test-source37:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/S_ALC"
+    test-source38:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_17"
+    test-source39:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_17/S_QTY"
+    test-source169:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_17/S_QTY/C_C168"
+    test-source40:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_18"
+    test-source41:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_18/S_PCD"
+    test-source170:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_18/S_PCD/C_C501"
+    test-source42:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_19"
+    test-source43:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_19/S_MOA"
+    test-source171:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_19/S_MOA/C_C516"
+    test-source44:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_20"
+    test-source45:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_20/S_RTE"
+    test-source172:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_20/S_RTE/C_C128"
+    test-source46:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_21"
+    test-source47:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_21/S_TAX"
+    test-source173:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_21/S_TAX/C_C241"
+    test-source174:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_21/S_TAX/C_C533"
+    test-source175:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_21/S_TAX/C_C243"
+    test-source48:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_21/S_MOA"
+    test-source176:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_15/G_Group_21/S_MOA/C_C516"
+    test-source49:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25"
+    test-source50:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_LIN"
+    test-source177:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_LIN/C_C212"
+    test-source178:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_LIN/C_C829"
+    test-source51:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_PIA"
+    test-source179:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_PIA/C_C212"
+    test-source52:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_IMD"
+    test-source180:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_IMD/C_C273"
+    test-source53:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_MEA"
+    test-source181:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_MEA/C_C502"
+    test-source182:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_MEA/C_C174"
+    test-source54:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_QTY"
+    test-source183:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_QTY/C_C186"
+    test-source55:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_ALI"
+    test-source56:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_DTM"
+    test-source184:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_DTM/C_C507"
+    test-source57:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_QVR"
+    test-source185:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_QVR/C_C186"
+    test-source58:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_FTX" 
+    test-source186:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_FTX/C_C107"
+    test-source187:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/S_FTX/C_C108" 
+    test-source59:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_26"
+    test-source60:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_26/S_MOA"
+    test-source188:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_26/S_MOA/C_C516"
+    test-source61:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_26/S_CUX"
+    test-source189:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_26/S_CUX/C_C504"
+    test-source62:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_27"
+    test-source63:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_27/S_PAT"
+    test-source190:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_27/S_PAT/C_C110"
+    test-source191:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_27/S_PAT/C_C112"
+    test-source64:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_27/S_DTM"
+    test-source192:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_27/S_DTM/C_C507"
+    test-source65:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_27/S_PCD"
+    test-source193:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_27/S_PCD/C_C501"
+    test-source66:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_27/S_MOA"
+    test-source194:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_27/S_MOA/C_C516"
+    test-source67:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_28"
+    test-source68:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_28/S_PRI"
+    test-source195:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_28/S_PRI/C_C509"
+    test-source69:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_29"
+    test-source70:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_29/S_RFF"
+    test-source196:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_29/S_RFF/C_C506"
+    test-source71:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_29/S_DTM" 
+    test-source197:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_29/S_DTM/C_C507" 
+    test-source72:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30"
+    test-source73:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/S_PAC"
+    test-source198:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/S_PAC/C_C531"
+    test-source199:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/S_PAC/C_C202"
+    test-source200:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/S_PAC/C_C402"
+    test-source201:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/S_PAC/C_C532"
+    test-source74:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/S_MEA" 
+    test-source202:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/S_MEA/C_C502"
+    test-source203:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/S_MEA/C_C174" 
+    test-source75:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_31" 
+    test-source76:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/G_Group_31/S_PCI" 
+    test-source204:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/G_Group_31/S_PCI/C_C210"
+    test-source205:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/G_Group_31/S_PCI/C_C827" 
+    test-source77:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/G_Group_31/S_GIN"
+    test-source206:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_30/G_Group_31/S_GIN/C_C208"  
+    test-source78:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_32" 
+    test-source79:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_32/S_LOC"
+    test-source207:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_32/S_LOC/C_C517"
+    test-source208:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_32/S_LOC/C_C519"
+    test-source209:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_32/S_LOC/C_C553"
+    test-source80:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_32/S_QTY"
+    test-source210:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_32/S_QTY/C_C186" 
+    test-source81:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_32/S_DTM"
+    test-source211:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_32/S_DTM/C_C507"  
+    test-source82:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_33" 
+    test-source83:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_33/S_TAX"
+    test-source212:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_33/S_TAX/C_C241"
+    test-source213:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_33/S_TAX/C_C533"
+    test-source214:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_33/S_TAX/C_C243"
+    test-source84:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_33/S_MOA" 
+    test-source215:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_33/S_MOA/C_C516" 
+    test-source85:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_34"
+    test-source86:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_34/S_NAD" 
+    test-source216:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_34/S_NAD/C_C082"
+    test-source217:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_34/S_NAD/C_C058"
+    test-source218:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_34/S_NAD/C_C080"
+    test-source219:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_34/S_NAD/C_C059" 
+    test-source87:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_34/G_Group_35" 
+    test-source88:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_34/G_Group_35/S_RFF" 
+    test-source220:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_34/G_Group_35/S_RFF/C_C506"  
+    test-source89:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38"
+    test-source90:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/S_ALC"
+    test-source221:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/S_ALC/C_C552"
+    test-source222:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/S_ALC/C_C214"
+    test-source91:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/S_ALI"  
+    test-source92:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_39" 
+    test-source93:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_39/S_QTY"
+    test-source223:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_39/S_QTY/C_C186"  
+    test-source94:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_40" 
+    test-source95:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_40/S_PCD" 
+    test-source224:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_40/S_PCD/C_C501"  
+    test-source96:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_41" 
+    test-source97:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_41/S_MOA"
+    test-source225:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_41/S_MOA/C_C516"  
+    test-source98:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_42"
+    test-source99:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_42/S_RTE" 
+    test-source226:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_42/S_RTE/C_C128"  
+    test-source100:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_43"
+    test-source101:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_43/S_TAX" 
+    test-source227:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_43/S_TAX/C_C241"
+    test-source228:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_43/S_TAX/C_C553"
+    test-source229:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_43/S_TAX/C_C243" 
+    test-source102:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_43/S_MOA"  
+    test-source230:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_43/S_MOA/C_C516"  
+    test-source103:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_44" 
+    test-source104:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_44/S_TDT"
+    test-source231:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_44/S_TDT/C_C220"
+    test-source232:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_44/S_TDT/C_C228" 
+    test-source233:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_44/S_TDT/C_C040"
+    test-source234:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_25/G_Group_38/G_Group_44/S_TDT/C_C222"
+    test-source105:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_UNS"   
+    test-source106:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_UNS/S_CNT" 
+    test-source235:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_UNS/S_CNT/C_C270" 
+    test-source107:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_48"  
+    test-source108:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_48/S_MOA"
+    test-source236:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_48/S_MOA/C_C516"
+    test-source109:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_48/G_Group_49" 
+    test-source110:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_48/G_Group_49/S_RFF"
+    test-source237:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_48/G_Group_49/S_RFF/C_C506" 
+    test-source111:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_48/G_Group_49/S_DTM" 
+    test-source238:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_48/G_Group_49/S_DTM/C_C507"  
+    test-source112:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_50"  
+    test-source113:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_50/S_TAX"
+    test-source239:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_50/S_TAX/C_C241"
+    test-source240:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_50/S_TAX/C_C533"
+    test-source241:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_50/S_TAX/C_C243"
+    test-source114:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_50/S_MOA"
+    test-source242:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_50/S_MOA/C_C516"  
+    test-source115:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_51"  
+    test-source116:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_51/S_ALC"
+    test-source243:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_51/S_ALC/C552"
+    test-source244:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_51/S_ALC/C214"
+    test-source117:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_51/S_ALI"
+    test-source118:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_51/S_MOA"
+    test-source245:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/G_Group_51/S_MOA/C_C516"
+    test-source119:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/Message/S_UNT"
+    test-source246:
+      access: "INVOIC2.xml"
+      referenceFormulation: xpath
+      iterator: "/Interchange/S_UNZ" 
+mappings:
+    eancomStructure:
+      sources: 
+        - test-source0
+        - test-source2
+        - test-source105
+        - test-source106
+        - test-source119
+        - test-source120
+        - test-source121
+        - test-source122
+        - test-source123
+        - test-source124
+        - test-source125
+        - test-source126
+        - test-source235
+        - test-source246
+      subjects:
+        - value: http://example.com/$(./@eancomstructure)
+      predicateobjects:
+        - predicates: rdf:type 
+          objects: 
+              value: edifact-o:EANCOM-Structure
+              type: iri
+        - predicates: edifact-o:synatxIdentifier
+          objects: 
+              value: "$(./D_0001)"
+        - predicates: edifact-o:synatxVersion
+          objects: 
+              value: "$(./D_0002)"
+              datatype: xsd:integer
+        - predicates: edifact-o:senderIndicator
+          objects: 
+              value: "$(./D_0004)"
+        - predicates: edifact-o:recipientIndicator 
+          objects: 
+              value: "$(./D_0010)"
+        - predicates: edifact-o:creationDate
+          objects: 
+              value: "$(./D_0017)"
+              datatype: xsd:integer
+        - predicates: edifact-o:creationTime
+          objects: 
+              value: "$(./D_0019)"
+              datatype: xsd:integer
+        - predicates: edifact-o:dataExchangeReference
+          objects: 
+              value: "$(./D_0020)"
+              datatype: xsd:string
+        - predicates: edifact-o:totalNumberOfSegments
+          objects: 
+              value: "$(./D_0074)"
+              datatype: xsd:string
+        - predicates: edifact-o:controlSegmentBetweenItemAndTotalPart
+          objects: 
+              value: "$(./D_0081)"
+              datatype: xsd:string
+        - predicates: edifact-o:messageReferenceNumber
+          objects: 
+              value: "$(./D_0062)"
+              datatype: xsd:string
+        - predicates: edifact-o:messageTypeIdentifier
+          objects: 
+              value: "$(./D_0065)"
+              datatype: xsd:string
+        - predicates: edifact-o:versionNumberMessageType
+          objects: 
+              value: "$(./D_0052)"
+              datatype: xsd:string
+        - predicates: edifact-o:releaseNumberMessageType
+          objects: 
+              value: "$(./D_0054)"
+              datatype: xsd:string
+        - predicates: edifact-o:managingOrganisations
+          objects: 
+              value: "$(./D_0051)"
+              datatype: xsd:string
+        - predicates: edifact-o:dataExchangeCounter
+          objects: 
+              value: "$(./D_0036)"
+              datatype: xsd:integer

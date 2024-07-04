@@ -1,0 +1,322 @@
+sources:
+  test-source0:
+    access: "INVOIC2.xml"
+    referenceFormulation: xpath
+    iterator: "/Interchange/S_UNB"
+  test-source120:
+    access: "INVOIC2.xml"
+    referenceFormulation: xpath
+    iterator: "/Interchange/S_UNB/C_S001"
+  test-source121:
+    access: "INVOIC2.xml"
+    referenceFormulation: xpath
+    iterator: "/Interchange/S_UNB/C_S002"
+  test-source122:
+    access: "INVOIC2.xml"
+    referenceFormulation: xpath
+    iterator: "/Interchange/S_UNB/C_S003"
+  test-source123:
+    access: "INVOIC2.xml"
+    referenceFormulation: xpath
+    iterator: "/Interchange/S_UNB/C_S004"
+  test-source124:
+    access: "INVOIC2.xml"
+    referenceFormulation: xpath
+    iterator: "/Interchange/S_UNB/C_S005"  
+  supergirl-source0:
+    access: "Supergirl.xml"
+    referenceFormulation: xpath
+    iterator: "/Message"
+  supergirl-source1:
+    access: "Supergirl.xml"
+    referenceFormulation: xpath
+    iterator: "/Message/S_BGM"
+  supergirl-source2:
+    access: "Supergirl.xml"
+    referenceFormulation: xpath
+    iterator: "/Message/G_Group_2/S_NAD"
+  supergirl-source3:
+    access: "Supergirl.xml"
+    referenceFormulation: xpath
+    iterator: "/Message/G_Group_2/S_NAD/C_C082"
+  supergirl-source4:
+    access: "Supergirl.xml"
+    referenceFormulation: xpath
+    iterator: "/Message/G_Group_2/S_NAD/C_C080"
+  supergirl-source5:
+    access: "Supergirl.xml"
+    referenceFormulation: xpath
+    iterator: "/Message/G_Group_2/S_NAD/C_C059"
+targets:
+  target1: ["/data/dump1.nt~dcat", "ntriples"]
+  target2: ["/data/dump2.ttl~void", "turtle"]
+
+prefixes:
+  edifact-o: <https://purl.org/edifact/ontology#>
+  p2p-o-org: <https://purl.org/p2p-o/organization#>
+  frapo: <http://purl.org/cerif/frapo/>
+  p2p-o-inv: <https://purl.org/p2p-o/invoice#>
+  p2p-o: <https://purl.org/p2p-o#>
+
+mappings:
+  person:
+    sources: 
+        - supergirl-source0
+        - supergirl-source1
+        - supergirl-source2
+        - supergirl-source3
+        - supergirl-source4
+        - supergirl-source5
+    subjects:
+      - value: "http://example.org/$(./@id)"
+        targets: target1
+    predicateobjects:
+
+EDIFACT-Structure
+      - predicates: edifact-o:messageReferenceNumber
+        objects:
+          -value: "$(./messageReferenceNumber)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:messageTypeIdentifier
+        objects:
+          -value: "$(./messageTypeIdentifier)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:versionNumberMessageType
+        objects:
+          -value: "$(./versionNumberMessageType)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:releaseNumberMessageType
+        objects:
+          -value: "$(./releaseNumberMessageType)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:managingOrganisations
+        objects:
+          -value: "$(./managingOrganisations)"
+          -datatype: xsd:string
+        
+      - predicates: edifact-o:controlSegmentBetweenItemAndTotalPart
+        objects:
+          -value: "$(./controlSegmentBetweenItemAndTotalPart)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:totalNumberOfSegments
+        objects:
+          -value: "$(./totalNumberOfSegments)"
+          -datatype: xsd:integer
+
+      - predicates: edifact-o:creationDate
+        objects:
+          -value: "$(./creationDate)"
+          -datatype: xsd:integer     
+
+      - predicates: edifact-o:creationTime
+        objects:
+          -value: "$(./creationTime)"
+          -datatype: xsd:integer  
+
+      - predicates: edifact-o:recipientIndicator
+        objects:
+          -value: "$(./recipientIndicator)"
+          -datatype: xsd:string 
+
+      - predicates: edifact-o:senderIndicator
+        objects:
+          -value: "$(./senderIndicator)"
+          -datatype: xsd:string                                
+
+
+
+InvoiceDetails
+
+      - predicates: edifact-o:hasDocumentNumber 
+        objects:
+          -value: "$(./hasDocumentNumber)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:hasinvoiceamount
+        objects: 
+          -value: "$(./Rechnungsbetrag)"
+          -datatype: xsd:float
+
+      - predicates: edifact-o:hasTotalLineItemAmount
+        objects: 
+          -value: "$(./Gesamtpositionsbetrag)"
+          -datatype: xsd:float
+
+      - predicates: edifact-o:deliveryCondition
+        objects: 
+          -value: "$(./Lieferbedingung)"
+          -datatype: xsd:string    
+
+      - predicates: edifact-o:hasBasicTaxAmount
+        objects: 
+          -value: "$(./Steuergrundbetrag)"
+          -datatype: xsd:float                 
+
+      - predicates: edifact-o:hasDocumentFunction
+        objects: 
+          -value: "$(./Dokumentenfunktion)"
+          -datatype: xsd:string 
+
+      - predicates: edifact-o:hasDocumentType
+        objects: 
+          -value: "$(./Dokumentennummer)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:hasPaymentDiscountAmount
+        objects: 
+          -value: "$(./Zahlungskuerzung)"
+          -datatype: xsd:float
+
+      - predicates: edifact-o:hasTotalAmount
+        objects: 
+          -value: "$(./Gesamtbetrag)"
+          -datatype: xsd:float       
+
+      - predicates: edifact-o:invoiceCurrency
+        objects: 
+          -value: "$(./WaehrungRechnung)"
+          -datatype: xsd:string             
+
+
+
+
+InvoiceContent
+
+      - predicates: edifact-o:paymentCondition
+        objects:
+          -value: "$(./paymentCondition)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:hasTaxAmount
+        objects:
+          -value: "$(./hasTaxAmount)"
+          -datatype: xsd:float
+
+      - predicates: edifact-o:hasTaxableAmount
+        objects:
+          -value: "$(./hasTaxableAmount)"
+          -datatype: xsd:float
+
+      - predicates: edifact-o:hasCashDiscount
+        objects:
+          -value: "$(./Barzahlungsrabatt)"
+          -datatype: xsd:float
+
+      - predicates: p2p-o-inv:actualDeliveryDate
+        objects:
+          -value: "$(./actualDeliveryDate)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:timePeriod
+        objects:
+          -value: "$(./timePeriod)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:documentDate
+        objects:
+          -value: "$(./documentDate)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:paymentCurrency
+        objects:
+          -value: "$(./WaehrungZahlung)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:descriptionOfGoods
+        objects:
+          -value: "$(./Warenbeschreibung)"
+          -datatype: xsd:string          
+
+      - predicates: edifact-o:hasChargeAmount
+        objects:
+          -value: "$(./Zuschlagsbetrag)"
+          -datatype: xsd:float
+
+      - predicates: edifact-o:hasDiscountAmount
+        objects:
+          -value: "$(./Abzug_Rabatt)"
+          -datatype: xsd:float
+
+      - predicates: edifact-o:hasDueDate
+        objects:
+          -value: "$(./hasDueDate)"
+          -datatype: xsd:string
+
+
+FormalOrganization
+
+      - predicates: frapo:hasCountryCode
+        objects:
+          -value: "$(./hasCountryCode)"
+          -datatype: xsd:string
+
+      - predicates: p2p-o-org:formalName
+        objects:
+          -value: "$(./formalName)"
+          -datatype: xsd:string  
+
+      - predicates: vcard:hasStreetAddress
+        objects:
+          -value: "$(./hasStreetAddress)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:hasCity
+        objects:
+          -value: "$(./hasCity)"
+          -datatype: xsd:string
+
+      - predicates: vcard:postalCode
+        objects:
+          -value: "$(./postalCode)"
+          -datatype: xsd:string
+
+      - predicates: p2p-o-org:globalLocationNumber
+        objects:
+          -value: "$(./globalLocationNumber)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:contactPersom !!!!!!!!!!!!!!!!!(in ontology it was written as persom)
+        objects:
+          -value: "$(./contactPerson)"
+          -datatype: xsd:string
+
+
+
+
+
+
+Item
+      - predicates: p2p-o:itemName
+        objects:
+          -value: "$(./itemName)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:hasUnitPrice
+        objects:
+          -value: "$(./hasUnitPrice)"
+          -datatype: xsd:float
+
+      - predicates: edifact-o:deliveredQuantity
+        objects:
+          -value: "$(./Menge_Geliefert)"
+          -datatype: xsd:string
+
+      - predicates: edifact-o:hasInvoiceprice
+        objects:
+          -value: "$(./Rechnungspreis)"
+          -datatype: xsd:float
+
+      - predicates: edifact-o:hasLineItemAmount
+        objects:
+          -value: "$(./Positionsbetrag)"
+          -datatype: xsd:float
+
+      - predicates: edifact-o:hasNetWeight
+        objects:
+          -value: "$(./Nettokalkulation)"
+          -datatype: xsd:float                    
