@@ -5,11 +5,11 @@ import subprocess
 
 def runCommands():
 
-    #process = subprocess.Popen(['python3', 'translator.py'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    process = subprocess.Popen(['python3', 'translator.py'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
-    #process.communicate(input='ExampleInvoiceBT')
+    process.communicate(input='ExampleInvoiceBT')
 
-    #time.sleep(2)
+    time.sleep(2)
 
     #Create mapping using Yarrrml parser using the defined yml file
     os.system("yarrrml-parser -i testMapping.yarrrml -o RML.rml.ttl")
@@ -21,4 +21,4 @@ def runCommands():
     os.system("java -jar rmlmapper.jar -m RML.rml.ttl -o knowledgeGraph.ttl")
 
     #wait until the knowledge graph is generated
-    #time.sleep(3)
+    time.sleep(2)
