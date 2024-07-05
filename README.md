@@ -3,7 +3,5 @@ A structure built in python allowing for an automatic processing of an XML Edifa
 
 ## video Demo
 
-<figure class="video_container">
-  <iframe src="video_demo_AVBD.mp4" frameborder="0" allowfullscreen="true"> 
-</iframe>
-</figure>
+https://github.com/Nour-HF/AVBD/assets/138662081/47e71976-9bf2-4e81-bc7f-6b093ec779a2
+
