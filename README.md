@@ -3,4 +3,7 @@ A structure built in python allowing for an automatic processing of an XML Edifa
 
 ## video Demo
 
-[Video demo](vide_demo_AVBD.mp4)
+
+https://video_demo_AVBD.mp4
+
+[Video demo](video_demo_AVBD.mp4)
