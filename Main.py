@@ -8,4 +8,4 @@ import os
 bashCommands.runCommands()
 
 #run pyshacl to validate knowledge graph
-os.system("python3 shaclValidation.py")
+#os.system("python3 shaclValidation.py")

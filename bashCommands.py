@@ -12,7 +12,7 @@ def runCommands():
     time.sleep(2)
 
     #Create mapping using Yarrrml parser using the defined yml file
-    os.system("yarrrml-parser -i testMapping.yarrrml -o RML.rml.ttl")
+    os.system("yarrrml-parser -i completeMapping.yarrrml -o RML.rml.ttl")
 
     #wait until the .ttl is generated
     time.sleep(1)

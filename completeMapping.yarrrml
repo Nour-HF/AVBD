@@ -1030,48 +1030,48 @@ mappings:
               type: iri 
         - predicates: edifact-o:messageReferenceNumber
           objects:
-              -value: "$(./messageReferenceNumber)"
-              -datatype: xsd:string
+              value: "$(./messageReferenceNumber)"
+              datatype: xsd:string
         - predicates: edifact-o:messageTypeIdentifier
           objects:
-              -value: "$(./messageTypeIdentifier)"
-              -datatype: xsd:string
+              value: "$(./messageTypeIdentifier)"
+              datatype: xsd:string
         - predicates: edifact-o:versionNumberMessageType
           objects:
-              -value: "$(./versionNumberMessageType)"
-              -datatype: xsd:string
+              value: "$(./versionNumberMessageType)"
+              datatype: xsd:string
         - predicates: edifact-o:releaseNumberMessageType
           objects:
-              -value: "$(./releaseNumberMessageType)"
-              -datatype: xsd:string
+              value: "$(./releaseNumberMessageType)"
+              datatype: xsd:string
         - predicates: edifact-o:managingOrganisations
           objects:
-              -value: "$(./managingOrganisations)"
-              -datatype: xsd:string       
+              value: "$(./managingOrganisations)"
+              datatype: xsd:string       
         - predicates: edifact-o:controlSegmentBetweenItemAndTotalPart
           objects:
-              -value: "$(./controlSegmentBetweenItemAndTotalPart)"
-              -datatype: xsd:string
+              value: "$(./controlSegmentBetweenItemAndTotalPart)"
+              datatype: xsd:string
         - predicates: edifact-o:totalNumberOfSegments
           objects:
-              -value: "$(./totalNumberOfSegments)"
-              -datatype: xsd:integer
+              value: "$(./totalNumberOfSegments)"
+              datatype: xsd:integer
         - predicates: edifact-o:creationDate
           objects:
-              -value: "$(./creationDate)"
-              -datatype: xsd:integer    
+              value: "$(./creationDate)"
+              datatype: xsd:integer    
         - predicates: edifact-o:creationTime
           objects:
-              -value: "$(./creationTime)"
-              -datatype: xsd:integer  
+              value: "$(./creationTime)"
+              datatype: xsd:integer  
         - predicates: edifact-o:recipientIndicator
           objects:
-              -value: "$(./recipientIndicator)"
-              -datatype: xsd:string
+              value: "$(./recipientIndicator)"
+              datatype: xsd:string
         - predicates: edifact-o:senderIndicator
           objects:
-              -value: "$(./senderIndicator)"
-              -datatype: xsd:string
+              value: "$(./senderIndicator)"
+              datatype: xsd:string
     InvoiceDetails:
       sources: 
         - test-source1
@@ -1184,88 +1184,88 @@ mappings:
               type: iri
         - predicates: edifact-o:hasDocumentNumber
           objects:
-              -value: "$(./hasDocumentNumber)"
-              -datatype: xsd:string
+              value: "$(./hasDocumentNumber)"
+              datatype: xsd:string
         - predicates: edifact-o:hasinvoiceamount
           objects:
-              -value: "$(./Rechnungsbetrag)"
-              -datatype: xsd:float
+              value: "$(./Rechnungsbetrag)"
+              datatype: xsd:float
         - predicates: edifact-o:hasTotalLineItemAmount
           objects:
-              -value: "$(./Gesamtpositionsbetrag)"
-              -datatype: xsd:float
+              value: "$(./Gesamtpositionsbetrag)"
+              datatype: xsd:float
         - predicates: edifact-o:deliveryCondition
           objects:
-              -value: "$(./Lieferbedingung)"
-              -datatype: xsd:string    
+              value: "$(./Lieferbedingung)"
+              datatype: xsd:string    
         - predicates: edifact-o:hasBasicTaxAmount
           objects:
-              -value: "$(./Steuergrundbetrag)"
-              -datatype: xsd:float                
+              value: "$(./Steuergrundbetrag)"
+              datatype: xsd:float                
         - predicates: edifact-o:hasDocumentFunction
           objects:
-              -value: "$(./Dokumentenfunktion)"
-              -datatype: xsd:string
+              value: "$(./Dokumentenfunktion)"
+              datatype: xsd:string
         - predicates: edifact-o:hasDocumentType
           objects:
-              -value: "$(./Dokumentennummer)"
-              -datatype: xsd:string
+              value: "$(./Dokumentennummer)"
+              datatype: xsd:string
         - predicates: edifact-o:hasPaymentDiscountAmount
           objects:
-              -value: "$(./Zahlungskuerzung)"
-              -datatype: xsd:float
+              value: "$(./Zahlungskuerzung)"
+              datatype: xsd:float
         - predicates: edifact-o:hasTotalAmount
           objects:
-              -value: "$(./Gesamtbetrag)"
-              -datatype: xsd:float      
+              value: "$(./Gesamtbetrag)"
+              datatype: xsd:float      
         - predicates: edifact-o:invoiceCurrency
           objects:
-              -value: "$(./WaehrungRechnung)"
-              -datatype: xsd:string
+              value: "$(./WaehrungRechnung)"
+              datatype: xsd:string
         - predicates: edifact-o:paymentCondition
           objects:
-              -value: "$(./paymentCondition)"
-              -datatype: xsd:string
+              value: "$(./paymentCondition)"
+              datatype: xsd:string
         - predicates: edifact-o:hasTaxAmount
           objects:
-              -value: "$(./hasTaxAmount)"
-              -datatype: xsd:float
+              value: "$(./hasTaxAmount)"
+              datatype: xsd:float
         - predicates: edifact-o:hasTaxableAmount
           objects:
-              -value: "$(./hasTaxableAmount)"
-              -datatype: xsd:float
+              value: "$(./hasTaxableAmount)"
+              datatype: xsd:float
         - predicates: edifact-o:hasCashDiscount
           objects:
-              -value: "$(./Barzahlungsrabatt)"
-              -datatype: xsd:float
+              value: "$(./Barzahlungsrabatt)"
+              datatype: xsd:float
         - predicates: p2p-o-inv:actualDeliveryDate
           objects:
-              -value: "$(./actualDeliveryDate)"
-              -datatype: xsd:string
+              value: "$(./actualDeliveryDate)"
+              datatype: xsd:string
         - predicates: edifact-o:timePeriod
           objects:
-              -value: "$(./timePeriod)"
-              -datatype: xsd:string
+              value: "$(./timePeriod)"
+              datatype: xsd:string
         - predicates: edifact-o:documentDate
           objects:
-              -value: "$(./documentDate)"
-              -datatype: xsd:string
+              value: "$(./documentDate)"
+              datatype: xsd:string
         - predicates: edifact-o:paymentCurrency
           objects:
-              -value: "$(./WaehrungZahlung)"
-              -datatype: xsd:string
+              value: "$(./WaehrungZahlung)"
+              datatype: xsd:string
         - predicates: edifact-o:hasChargeAmount
           objects:
-              -value: "$(./Zuschlagsbetrag)"
-              -datatype: xsd:float
+              value: "$(./Zuschlagsbetrag)"
+              datatype: xsd:float
         - predicates: edifact-o:hasDiscountAmount
           objects:
-              -value: "$(./Abzug_Rabatt)"
-              -datatype: xsd:float
+              value: "$(./Abzug_Rabatt)"
+              datatype: xsd:float
         - predicates: edifact-o:hasDueDate
           objects:
-              -value: "$(./Zahlungsfaelligkeitsdatum)"
-              -datatype: xsd:string
+              value: "$(./Zahlungsfaelligkeitsdatum)"
+              datatype: xsd:string
     item:
       sources: 
         - test-source49
@@ -1387,72 +1387,72 @@ mappings:
               type: iri
         - predicates: edifact-o:paymentCondition
           objects:
-              -value: "$(./paymentCondition)"
-              -datatype: xsd:string
+              value: "$(./paymentCondition)"
+              datatype: xsd:string
         - predicates: edifact-o:hasTaxAmount
           objects:
-              -value: "$(./hasTaxAmount)"
-              -datatype: xsd:float
+              value: "$(./hasTaxAmount)"
+              datatype: xsd:float
         - predicates: edifact-o:hasTaxableAmount
           objects:
-              -value: "$(./hasTaxableAmount)"
-              -datatype: xsd:float
+              value: "$(./hasTaxableAmount)"
+              datatype: xsd:float
         - predicates: edifact-o:hasCashDiscount
           objects:
-              -value: "$(./Barzahlungsrabatt)"
-              -datatype: xsd:float
+              value: "$(./Barzahlungsrabatt)"
+              datatype: xsd:float
         - predicates: p2p-o-inv:actualDeliveryDate
           objects:
-              -value: "$(./actualDeliveryDate)"
-              -datatype: xsd:string
+              value: "$(./actualDeliveryDate)"
+              datatype: xsd:string
         - predicates: edifact-o:timePeriod
           objects:
-              -value: "$(./timePeriod)"
-              -datatype: xsd:string
+              value: "$(./timePeriod)"
+              datatype: xsd:string
         - predicates: edifact-o:paymentCurrency
           objects:
-              -value: "$(./WaehrungZahlung)"
-              -datatype: xsd:string
+              value: "$(./WaehrungZahlung)"
+              datatype: xsd:string
         - predicates: edifact-o:descriptionOfGoods
           objects:
-              -value: "$(./Warenbeschreibung)"
-              -datatype: xsd:string
+              value: "$(./Warenbeschreibung)"
+              datatype: xsd:string
         - predicates: edifact-o:hasChargeAmount
           objects:
-              -value: "$(./Zuschlagsbetrag)"
-              -datatype: xsd:float  
+              value: "$(./Zuschlagsbetrag)"
+              datatype: xsd:float  
         - predicates: edifact-o:hasDiscountAmount
           objects:
-              -value: "$(./Abzug_Rabatt)"
-              -datatype: xsd:float
+              value: "$(./Abzug_Rabatt)"
+              datatype: xsd:float
         - predicates: edifact-o:hasDueDate
           objects:
-              -value: "$(./Zahlungsfaelligkeitsdatum)"
-              -datatype: xsd:string 
+              value: "$(./Zahlungsfaelligkeitsdatum)"
+              datatype: xsd:string 
         - predicates: p2p-o:itemName
           objects:
-              -value: "$(./itemName)"
-              -datatype: xsd:string
+              value: "$(./itemName)"
+              datatype: xsd:string
         - predicates: edifact-o:hasUnitPrice
           objects:
-              -value: "$(./hasUnitPrice)"
-              -datatype: xsd:float
+              value: "$(./hasUnitPrice)"
+              datatype: xsd:float
         - predicates: edifact-o:deliveredQuantity
           objects:
-              -value: "$(./Menge_Geliefert)"
-              -datatype: xsd:string
+              value: "$(./Menge_Geliefert)"
+              datatype: xsd:string
         - predicates: edifact-o:hasInvoiceprice
           objects:
-              -value: "$(./Rechnungspreis)"
-              -datatype: xsd:float
+              value: "$(./Rechnungspreis)"
+              datatype: xsd:float
         - predicates: edifact-o:hasLineItemAmount
           objects:
-              -value: "$(./Positionsbetrag)"
-              -datatype: xsd:float
+              value: "$(./Positionsbetrag)"
+              datatype: xsd:float
         - predicates: edifact-o:hasNetWeight
           objects:
-              -value: "$(./Nettokalkulation)"
-              -datatype: xsd:float
+              value: "$(./Nettokalkulation)"
+              datatype: xsd:float
     company:
       sources: 
         - test-source11
@@ -1488,29 +1488,29 @@ mappings:
               type: iri           
         - predicates: frapo:hasCountryCode
           objects:
-              -value: "$(./hasCountryCode)"
-              -datatype: xsd:string
+              value: "$(./hasCountryCode)"
+              datatype: xsd:string
         - predicates: p2p-o-org:formalName
           objects:
-              -value: "$(./formalName)"
-              -datatype: xsd:string  
+              value: "$(./formalName)"
+              datatype: xsd:string  
         - predicates: vcard:hasStreetAddress
           objects:
-              -value: "$(./hasStreetAddress)"
-              -datatype: xsd:string
+              value: "$(./hasStreetAddress)"
+              datatype: xsd:string
         - predicates: edifact-o:hasCity
           objects:
-              -value: "$(./hasCity)"
-              -datatype: xsd:string
+              value: "$(./hasCity)"
+              datatype: xsd:string
         - predicates: vcard:postalCode
           objects:
-              -value: "$(./postalCode)"
-              -datatype: xsd:string
+              value: "$(./postalCode)"
+              datatype: xsd:string
         - predicates: p2p-o-org:globalLocationNumber
           objects:
-              -value: "$(./globalLocationNumber)"
-              -datatype: xsd:string
+              value: "$(./globalLocationNumber)"
+              datatype: xsd:string
         - predicates: edifact-o:contactPerson
           objects:
-              -value: "$(./contactPerson)"
-              -datatype: xsd:string
+              value: "$(./contactPerson)"
+              datatype: xsd:string
